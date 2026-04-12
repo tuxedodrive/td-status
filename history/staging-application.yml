@@ -1,7 +1,7 @@
 url: https://staging.tuxedodrive.com/health
-status: up
-code: 200
-responseTime: 279
-lastUpdated: 2026-04-11T23:08:11.939Z
+status: down
+code: 502
+responseTime: 732
+lastUpdated: 2026-04-12T19:18:31.749Z
 startTime: 2026-01-14T17:52:50.990Z
 generator: Upptime <https://github.com/upptime/upptime>

@@ -33,7 +33,7 @@
 # See AGENTS.md for full details.
 
 owner: tuxedodrive
-repo: status
+repo: td-status
 user-agent: Upptime (https://upptime.js.org)
 
 # Services to monitor
@@ -155,7 +155,7 @@ sites:
 # Status website configuration
 status-website:
   cname: status.tuxedodrive.dev
-  logoUrl: https://raw.githubusercontent.com/tuxedodrive/status/main/TuxedoDrive-logo.png
+  logoUrl: https://raw.githubusercontent.com/tuxedodrive/td-status/main/TuxedoDrive-logo.png
   name: TuxedoDrive Status
   introTitle: "**Your car wash platform, always running**"
   introMessage: |
@@ -168,7 +168,7 @@ status-website:
     - title: TuxedoDrive Website
       href: https://tuxedodrive.com
     - title: GitHub
-      href: https://github.com/tuxedodrive/status
+      href: https://github.com/tuxedodrive/td-status
     - title: Support
       href: mailto:engineering@tuxedodrive.com
   navbar2:
@@ -235,6 +235,6 @@ i18n:
     - text: "🚗 Main Website"
       href: "https://tuxedodrive.com"
     - text: "🐙 GitHub"
-      href: "https://github.com/tuxedodrive/status"
+      href: "https://github.com/tuxedodrive/td-status"
     - text: "💬 Support"
       href: "mailto:engineering@tuxedodrive.com"

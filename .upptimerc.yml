@@ -2,8 +2,8 @@
 # https://github.com/upptime/upptime
 #
 # TuxedoDrive Production Monitoring
-# Monitors all critical services supporting car wash operations
-# Total services: 18 (internal APIs + external integrations)
+# Monitors critical services supporting car wash operations
+# Total services: 10 (internal APIs + external integrations)
 #
 # 🏈 BRAND VOICE & UX APPROACH
 # ============================================================================
@@ -18,15 +18,13 @@
 # 5. Clear Action Items: Color codes (green/orange/red) guide users on what to do
 # 6. Support-First Approach: Easy paths to get help when something goes wrong
 #
-# Services are organized in 8 logical categories:
-# - 🏈 Internal Services (core platform & dashboards)
+# Services are organized in 6 logical categories:
+# - 🏈 Internal Services (core platform)
 # - 💳 Payment Processing (financial transactions)
 # - 📧 Email Services (confirmations & alerts)
 # - 📱 SMS & Messaging (quick notifications)
-# - 🔐 Authentication (login & security)
-# - 🏗️ Infrastructure (hosting & deployment)
-# - 🔒 Cloud Services (secrets & security)
-# - ⚙️ Features (critical endpoints)
+# - 🔐 Authentication & Services (login, weather, pollen)
+# - 🏗️ Infrastructure (hosting & secrets)
 #
 # 🔧 MAINTENANCE NOTES
 # ============================================================================
@@ -57,17 +55,6 @@ sites:
       - status
       - healthy
 
-  - name: 🧪 Staging Application
-    url: https://staging.tuxedodrive.com/health
-    icon: https://tuxedodrive.com/favicon.ico
-    expectedStatusCodes:
-      - 200
-    timeout: 5000
-    method: GET
-    checkKeywords:
-      - status
-      - healthy
-
   - name: 📡 Edge API
     url: https://api.tuxedodrive.com/health
     expectedStatusCodes:
@@ -76,30 +63,6 @@ sites:
     method: GET
     checkKeywords:
       - status
-
-  - name: 👥 Customer Dashboard
-    url: https://tuxedodrive.com/queens
-    expectedStatusCodes:
-      - 200
-      - 302
-    timeout: 5000
-    method: GET
-
-  - name: 👔 Operator Dashboard
-    url: https://staging.tuxedodrive.com/demo/operator
-    expectedStatusCodes:
-      - 200
-      - 302
-    timeout: 5000
-    method: GET
-
-  - name: 📊 Owner Dashboard
-    url: https://tuxedodrive.com/owner/dashboard
-    expectedStatusCodes:
-      - 200
-      - 302
-    timeout: 5000
-    method: GET
 
   # ============================================================================
   # 💳 PAYMENT PROCESSING - Taking Care of Transactions
@@ -117,22 +80,13 @@ sites:
   # ============================================================================
   # 📧 EMAIL SERVICES - Keeping Everyone Connected
   # ============================================================================
-  # Confirmations, receipts, alerts. We've got two email partners for reliability.
+  # Confirmations, receipts, alerts.
 
   - name: 📬 Email Delivery
     url: https://api.postmarkapp.com/deliverystats
     expectedStatusCodes:
       - 401
       - 422
-    timeout: 5000
-    method: GET
-
-  - name: 📨 Email Webhooks
-    url: https://api.sendgrid.com/v3/mail/validate
-    expectedStatusCodes:
-      - 400
-      - 401
-      - 405
     timeout: 5000
     method: GET
 
@@ -151,9 +105,9 @@ sites:
     method: GET
 
   # ============================================================================
-  # 🔐 AUTHENTICATION - Secure Access Control
+  # 🔐 AUTHENTICATION & SERVICES
   # ============================================================================
-  # Your login experience and identity verification.
+  # Login, weather, and pollen data that power your platform.
 
   - name: 🔑 Authentication
     url: https://accounts.google.com/.well-known/openid-configuration
@@ -177,7 +131,7 @@ sites:
     method: GET
 
   # ============================================================================
-  # 🏗️ INFRASTRUCTURE & DEPLOYMENT - Where We Live
+  # 🏗️ INFRASTRUCTURE - Where We Live
   # ============================================================================
   # The backbone keeping TuxedoDrive online 24/7.
 
@@ -187,25 +141,6 @@ sites:
       - 200
     timeout: 5000
     method: GET
-
-  - name: 🐙 Code Repository
-    url: https://www.githubstatus.com/
-    expectedStatusCodes:
-      - 200
-    timeout: 5000
-    method: GET
-
-  - name: 🔗 Code Repository APIs
-    url: https://api.github.com/
-    expectedStatusCodes:
-      - 200
-    timeout: 5000
-    method: GET
-
-  # ============================================================================
-  # 🔒 CLOUD SERVICES - Security & Secrets
-  # ============================================================================
-  # Where we safely store your sensitive configuration.
 
   - name: 🛡️ Secrets Management
     url: https://api.doppler.com/
@@ -217,44 +152,14 @@ sites:
     timeout: 5000
     method: GET
 
-  # ============================================================================
-  # ⚙️ FEATURE-SPECIFIC ENDPOINTS - The Details That Matter
-  # ============================================================================
-  # Critical features that make your car wash operations run smoothly.
-
-  - name: 📍 Location Management
-    url: https://tuxedodrive.com/owner/locations
-    expectedStatusCodes:
-      - 200
-      - 302
-    timeout: 5000
-    method: GET
-
-  - name: 💵 Cash Handling System
-    url: https://staging.tuxedodrive.com/demo/cash
-    expectedStatusCodes:
-      - 200
-      - 302
-    timeout: 5000
-    method: GET
-
-  - name: ✅ Payment Webhook Handler
-    url: https://tuxedodrive.com/stripe/webhook
-    expectedStatusCodes:
-      - 200
-      - 400
-      - 405
-    timeout: 5000
-    method: POST
-
 # Status website configuration
 status-website:
   cname: status.tuxedodrive.dev
-  logoUrl: https://tuxedodrive.com/favicon.ico
+  logoUrl: https://raw.githubusercontent.com/tuxedodrive/status/main/TuxedoDrive-logo.png
   name: TuxedoDrive Status
   introTitle: "**Your car wash platform, always running**"
   introMessage: |
-    Welcome to TuxedoDrive's status page. We monitor **18 critical systems** across our entire platform — from your customer dashboards and payment processing, to email notifications and SMS alerts — so you can focus on what matters: running a smooth car wash operation.
+    Welcome to TuxedoDrive's status page. We monitor **10 critical systems** across our platform — from payment processing and email delivery, to SMS alerts and authentication — so you can focus on what matters: running a smooth car wash operation.
 
     **Everything green?** You're good to go. **Something orange or red?** We're already on it, and you'll see updates here. Questions? Drop us a line at engineering@tuxedodrive.com — we're here to help.
   navbar:

@@ -3,7 +3,7 @@
 #
 # TuxedoDrive Production Monitoring
 # Monitors critical services supporting car wash operations
-# Total services: 10 (internal APIs + external integrations)
+# Total services: 10 (first-party health checks + provider reachability checks)
 #
 # 🏈 BRAND VOICE & UX APPROACH
 # ============================================================================
@@ -37,7 +37,8 @@ repo: td-status
 user-agent: Upptime (https://upptime.js.org)
 
 # Services to monitor
-# Internal services (our APIs) + External integrations (critical dependencies)
+# First-party health checks + external provider reachability checks.
+# Provider reachability checks validate endpoint availability, not TuxedoDrive credentials or end-to-end business workflows.
 sites:
   # ============================================================================
   # 🏈 INTERNAL SERVICES - Our Car Wash Platform
@@ -70,6 +71,7 @@ sites:
   # Your customers' money moves safely through here.
 
   - name: 💰 Payments
+    # Provider reachability only. Expected 400/401 means Stripe responded; this does not validate TuxedoDrive Stripe credentials or payment flows.
     url: https://api.stripe.com/v1/charges
     expectedStatusCodes:
       - 400
@@ -83,6 +85,7 @@ sites:
   # Confirmations, receipts, alerts.
 
   - name: 📬 Email Delivery
+    # Provider reachability only. Expected unauthenticated statuses mean Postmark responded; this does not validate TuxedoDrive sending credentials.
     url: https://api.postmarkapp.com/deliverystats
     expectedStatusCodes:
       - 401
@@ -96,6 +99,7 @@ sites:
   # Text messages to your phone when it matters.
 
   - name: 💬 SMS Notifications
+    # Provider reachability only. Expected unauthenticated statuses mean Twilio responded; this does not validate TuxedoDrive SMS credentials.
     url: https://api.twilio.com/
     expectedStatusCodes:
       - 200
@@ -117,6 +121,7 @@ sites:
     method: GET
 
   - name: 🌤️ Weather Service
+    # Provider reachability only. Expected 401 means OpenWeather responded; this does not validate TuxedoDrive weather API credentials.
     url: https://api.openweathermap.org/data/2.5/weather
     expectedStatusCodes:
       - 401
@@ -124,6 +129,7 @@ sites:
     method: GET
 
   - name: 🌸 Pollen Service
+    # Provider reachability only. Expected 403 means Google Pollen responded; this does not validate TuxedoDrive pollen API credentials.
     url: https://pollen.googleapis.com/v1/forecast:lookup
     expectedStatusCodes:
       - 403
@@ -143,6 +149,7 @@ sites:
     method: GET
 
   - name: 🛡️ Secrets Management
+    # Provider reachability only. Expected unauthenticated statuses mean Doppler responded; this does not validate TuxedoDrive secret access.
     url: https://api.doppler.com/
     expectedStatusCodes:
       - 200
@@ -159,7 +166,9 @@ status-website:
   name: TuxedoDrive Status
   introTitle: "**Your car wash platform, always running**"
   introMessage: |
-    Welcome to TuxedoDrive's status page. We monitor **10 critical systems** across our platform — from payment processing and email delivery, to SMS alerts and authentication — so you can focus on what matters: running a smooth car wash operation.
+    Welcome to TuxedoDrive's status page. We monitor **10 critical checks** across our platform — from first-party health endpoints to external provider reachability — so you can focus on what matters: running a smooth car wash operation.
+
+    External provider checks are reachability checks unless otherwise stated. They confirm provider endpoints are responding with expected statuses; they do not prove TuxedoDrive credentials or end-to-end business workflows are healthy.
 
     **Everything green?** You're good to go. **Something orange or red?** We're already on it, and you'll see updates here. Questions? Drop us a line at engineering@tuxedodrive.com — we're here to help.
   navbar:
@@ -201,7 +210,7 @@ notifications:
 workflowSchedule:
   responseTime: "0 23 * * *"    # Daily @ 11 PM UTC
   graphs: "0 0 * * *"           # Daily @ midnight UTC
-  checks: "*/5 * * * *"         # Every 5 minutes
+  checks: "*/15 * * * *"        # Every 15 minutes
   uptime: "0 */4 * * *"         # Every 4 hours
   trigger: "0 * * * *"          # Every hour for manual triggers
   site: "0 1 * * *"             # Daily @ 1 AM UTC

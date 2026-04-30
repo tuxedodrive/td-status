@@ -6,7 +6,7 @@
 
 # 🌌 Why did we create this status page?
 
-TuxedoDrive depends on 18 external services. When something goes wrong, we need to know immediately—and so do our users. This status page provides transparency and automated monitoring so we can respond to outages quickly.
+TuxedoDrive depends on first-party services and external providers. When something goes wrong, we need to know immediately—and so do our users. This status page provides transparency and automated monitoring so we can respond to outages quickly.
 
 # 🌌🌌 Who benefits from it?
 
@@ -15,19 +15,23 @@ TuxedoDrive depends on 18 external services. When something goes wrong, we need 
 
 # 🌌🌌🌌 What does it do?
 
-Monitors 18 critical services across our platform:
+Monitors 10 critical checks across our platform:
 
-- **Internal Services** - Production, staging, dashboards
-- **Payment Processing** - Stripe
-- **Email Services** - Postmark, SendGrid
-- **SMS & Messaging** - Twilio
+- **First-party health checks** - Production application and Edge API health endpoints
+- **Payment Provider Reachability** - Stripe unauthenticated provider reachability
+- **Email Provider Reachability** - Postmark unauthenticated provider reachability
+- **SMS Provider Reachability** - Twilio unauthenticated provider reachability
 - **Authentication** - Google OAuth
-- **Infrastructure** - Render, GitHub
-- **Cloud Services** - Doppler
+- **Environmental Data Provider Reachability** - OpenWeather and Google Pollen unauthenticated provider reachability
+- **Infrastructure Provider Reachability** - Render and Doppler
+
+External provider checks are reachability checks unless otherwise stated. A green provider reachability check means the provider endpoint responded with an expected non-5xx or documented unauthenticated status. It does not prove that TuxedoDrive credentials, account permissions, or end-to-end business workflows are healthy.
+
+Authenticated synthetic checks for payment, email, SMS, weather, pollen, and secrets workflows are planned separately from this Upptime reachability layer.
 
 # 🌌🌌🌌🌌 How does it work?
 
-Powered by [Upptime](https://upptime.js.org), this runs automated checks every 5 minutes via GitHub Actions. When a service goes down:
+Powered by [Upptime](https://upptime.js.org), this runs automated checks every 15 minutes via GitHub Actions. With the current threshold of 5 failed checks, the expected time to mark a check down is up to about 75 minutes. When a service goes down:
 
 1. A GitHub issue is created
 2. The team is notified via email

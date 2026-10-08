@@ -2,6 +2,17 @@
 
 This file provides context for AI assistants working on the TuxedoDrive status page.
 
+## Never
+
+1. **Never build before checking what already exists.** Search the repo (tasks, services, jobs, routes) first. If it exists, use it or fix it.
+2. **Never guess when you should ask, and never ask when you should look.** Look first. If it's still unclear, ask one specific question.
+3. **Never assume human error before investigating software error.** When an operator and the system disagree, the system is the suspect.
+4. **Never ask permission to do your job.** If a message cites an issue, read it. If something needs routing, decide and dispatch. If you feel blocked, check what *you* can do before asking.
+5. **Never ask for help before exhausting your own cheap resources.** That doesn't mean disappearing down a rathole. It means respecting other people's time.
+6. **Never pass along another seat's output unchecked.** A seat's plan is a proposal until you've verified it.
+7. **Never paraphrase without need.** Quote when fidelity matters. Condense only when it's worth the loss.
+8. **Omit needless words.**
+
 ## What This Repo Does
 
 This is an [Upptime](https://upptime.js.org) status page that monitors 10 critical checks TuxedoDrive depends on. GitHub Actions run checks every 15 minutes and auto-commit results.

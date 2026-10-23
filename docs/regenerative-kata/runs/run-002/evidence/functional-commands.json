@@ -1,0 +1,236 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/empty.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/absent",
+      "--now",
+      "2026-10-23T14:51:39Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:51:39Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:51:54Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:51:59Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:52:09Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:52:19Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:53:20Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:53:29Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:53:39Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "run",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--interval",
+      "0.05",
+      "--iterations",
+      "2"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/bad-config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:53:49Z"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Status operation failed: check configuration, database and output permissions.\n"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/removed.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public",
+      "--now",
+      "2026-10-23T14:53:59Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-002/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-002/evaluation/work/public"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

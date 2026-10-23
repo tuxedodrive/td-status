@@ -1,0 +1,7 @@
+{
+  "first_attempt": "failed at stale-phone: aged banner",
+  "diagnosis": "Evaluator conflated stale observations with stale publication. Export was newly generated and correctly showed unknown cards; snapshot-age banner need only appear when generated_at ages.",
+  "change": "Require age banner for client-aged case; still require unknown cards in freshly exported stale case.",
+  "implementation_changed": false,
+  "original_evaluator": "evaluation/browser-v1.py"
+}

@@ -1,0 +1,499 @@
+{
+  "generated_at": "2026-10-23T14:52:19Z",
+  "services": [
+    {
+      "id": "gd-application",
+      "name": "Groundhog Day Application",
+      "kind": "first_party",
+      "impact": "Core platform health endpoint",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 200,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 9.18,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "impaired",
+          "http_status": 502,
+          "elapsed_ms": 8.59,
+          "description": "HTTP response did not match the configured expected codes."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "impaired",
+          "http_status": 502,
+          "elapsed_ms": 7.78,
+          "description": "HTTP response did not match the configured expected codes."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 9.21,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 8.44,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-edge",
+      "name": "Groundhog Day Edge",
+      "kind": "first_party",
+      "impact": "Core platform health endpoint",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 200,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 1.12,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.93,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.69,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.89,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.86,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-payments",
+      "name": "Groundhog Day Payments",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 1.18,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.81,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.74,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 1.21,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.92,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-email",
+      "name": "Groundhog Day Email",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.98,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.7,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 1.17,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.97,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.64,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-sms",
+      "name": "Groundhog Day SMS",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.8,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.72,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.77,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.87,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.59,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-authentication",
+      "name": "Groundhog Day Authentication",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 200,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.51,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.74,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.63,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.78,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.85,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-weather",
+      "name": "Groundhog Day Weather",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.63,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.72,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.6,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.84,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.8,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-pollen",
+      "name": "Groundhog Day Pollen",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.85,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.74,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "impaired",
+          "http_status": 502,
+          "elapsed_ms": 0.69,
+          "description": "HTTP response did not match the configured expected codes."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.6,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-hosting",
+      "name": "Groundhog Day Hosting",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 200,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.68,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.63,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.52,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.62,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 200,
+          "elapsed_ms": 0.61,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    },
+    {
+      "id": "gd-secrets",
+      "name": "Groundhog Day Secrets",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T14:52:19Z",
+      "http_status": 401,
+      "description": "Configured HTTP and content checks passed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T14:51:39Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.62,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:54Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:51:59Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.63,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:09Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Configured HTTP and content checks passed."
+        },
+        {
+          "observed_at": "2026-10-23T14:52:19Z",
+          "outcome": "healthy",
+          "http_status": 401,
+          "elapsed_ms": 0.61,
+          "description": "Configured HTTP and content checks passed."
+        }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "service_id": "gd-application",
+      "opened_at": "2026-10-23T14:51:54Z",
+      "resolved_at": "2026-10-23T14:52:09Z",
+      "description": "HTTP response did not match the configured expected codes."
+    },
+    {
+      "service_id": "gd-pollen",
+      "opened_at": "2026-10-23T14:52:09Z",
+      "resolved_at": "2026-10-23T14:52:19Z",
+      "description": "HTTP response did not match the configured expected codes."
+    }
+  ]
+}

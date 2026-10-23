@@ -1,0 +1,20 @@
+[
+  {
+    "script": "browser.py",
+    "exit": 0,
+    "stdout": "{\n  \"browser\": \"Google Chrome 156.0.8078.47\",\n  \"passed\": 21,\n  \"cases\": 7,\n  \"viewports\": 3\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "browser_live.py",
+    "exit": 0,
+    "stdout": "{\n  \"passed\": 6,\n  \"requests\": 24\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "browser_hung.py",
+    "exit": 0,
+    "stdout": "{\n  \"calls\": 2,\n  \"states\": [\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\",\n    \"healthy\"\n  ],\n  \"fixture\": \"First fetch never resolves unless aborted; subsequent requests expose successful recovery\",\n  \"policy\": \"1s polling / 0.5s deadline; result captured at 3.5s synthetic browser time\",\n  \"passed\": true\n}\n",
+    "stderr": ""
+  }
+]

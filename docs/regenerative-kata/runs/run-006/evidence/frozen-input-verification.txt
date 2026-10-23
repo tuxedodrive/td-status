@@ -1,0 +1,8 @@
+builder-input/CONTRACT.md: OK
+evaluation/alerts.py: OK
+evaluation/browser.py: OK
+evaluation/browser_hung.py: OK
+evaluation/browser_live.py: OK
+evaluation/evaluate.py: OK
+evaluation/operations.py: OK
+evaluation/resilience.py: OK

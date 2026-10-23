@@ -1,0 +1,290 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:01.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:01.866862+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:02.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:02.866862+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:03.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:03.866862+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:04.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:04.866862+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:05.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:05.866862+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:06.866862+00:00"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/alerts-6se_al2t/public",
+      "--now",
+      "2026-10-23T16:20:06.866862+00:00"
+    ],
+    "exit": 0
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/empty.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/absent",
+      "--now",
+      "2026-10-23T16:17:56Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:17:56Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:18:11Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:18:16Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:18:26Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:18:36Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:19:37Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:19:46Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:19:56Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "run",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--interval",
+      "0.05",
+      "--iterations",
+      "2"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/bad-config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:20:06Z"
+    ],
+    "exit": 1,
+    "stdout": "",
+    "stderr": "Operation failed (ValueError). Check configuration, database and output access.\n"
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/removed.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public",
+      "--now",
+      "2026-10-23T16:20:16Z"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/observations.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/independent-run006-20261023T162009Z/evaluation/generated/functional-dny5qlti/public"
+    ],
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  }
+]

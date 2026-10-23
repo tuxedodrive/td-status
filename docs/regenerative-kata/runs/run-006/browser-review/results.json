@@ -1,0 +1,2547 @@
+{
+  "browser": "Google Chrome 156.0.8078.47",
+  "route": "Local file copies; evaluator-only fixed Date.now and DOM probe; original output unchanged",
+  "results": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "healthy-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "healthy-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:17:56Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "healthy-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nImpaired\n\nCore platform health endpoint\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:11Z",
+      "case": "failed-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nImpaired\n\nCore platform health endpoint\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:11Z",
+      "case": "failed-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nImpaired\n\nCore platform health endpoint\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:11Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:11Z",
+      "case": "failed-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nImpaired\n\nThis dependency only; other wash operations may be unaffected\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:26Z",
+      "case": "minor-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nImpaired\n\nThis dependency only; other wash operations may be unaffected\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:26Z",
+      "case": "minor-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(161, 24, 24)",
+          "background": "rgb(255, 227, 227)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nImpaired\n\nThis dependency only; other wash operations may be unaffected\n\nUnexpected HTTP status.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:26Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "1 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:26Z",
+      "case": "minor-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:36Z",
+      "case": "recovered-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:36Z",
+      "case": "recovered-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(17, 99, 43)",
+          "background": "rgb(220, 245, 228)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 0 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:18:36Z",
+      "case": "recovered-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:19:37Z",
+      "case": "stale-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:19:37Z",
+      "case": "stale-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:19:37Z",
+      "case": "stale-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "Snapshot may be out of date. Published 2026-10-23T16:18:36Z",
+      "case": "client-aged-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "Snapshot may be out of date. Published 2026-10-23T16:18:36Z",
+      "case": "client-aged-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nExpected response and content observed.\n\nSnapshot observation: 2026-10-23T16:18:36Z\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "Snapshot may be out of date. Published 2026-10-23T16:18:36Z",
+      "case": "client-aged-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 354,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 134,
+        "bottom": 182,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "absent-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 334,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "absent-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(121, 80, 0)",
+          "background": "rgb(255, 240, 194)",
+          "fontSize": "16px",
+          "width": 384,
+          "description": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\nNo observation available.\n\nSnapshot observation: none\n\nEvidence expires after 60 seconds.\n\nProvider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "0 listed checks impaired; 10 unknown. Scope and impact are shown for each check.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Contact support",
+        "top": 86,
+        "bottom": 134,
+        "display": "inline-block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "Published snapshot: 2026-10-23T16:17:56Z",
+      "case": "absent-tablet",
+      "outcome": "pass"
+    }
+  ]
+}

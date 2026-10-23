@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/jpb/Documents/Codex/2026-10-23/task/independent-run006-20261023T162009Z/evaluation/browser.py", line 27, in <module>
+    assert proof['width']==width and proof['documentWidth']<=width and not proof['overflow'],name+': overflow'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: healthy-phone: overflow

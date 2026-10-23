@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "check": "Healthy initial observation sends no alert",
+      "outcome": "pass"
+    },
+    {
+      "check": "Failure commits one pending opened event despite sink 503",
+      "outcome": "pass"
+    },
+    {
+      "check": "Pending event POST attempted with stable id",
+      "outcome": "pass"
+    },
+    {
+      "check": "Restarted collection retries same event and marks delivered",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated impairment neither duplicates nor resends delivered event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Recovery sends one distinct resolved event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated success sends no duplicate recovery",
+      "outcome": "pass"
+    },
+    {
+      "check": "Alert payload contains safe event identity and no private probe URL",
+      "outcome": "pass"
+    }
+  ],
+  "received": [
+    {
+      "id": "bfe9de93-11d0-4f49-bee4-3cc68af9a41c",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-10-23T16:20:02.866862Z",
+      "description": "Unexpected HTTP status."
+    },
+    {
+      "id": "bfe9de93-11d0-4f49-bee4-3cc68af9a41c",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-10-23T16:20:02.866862Z",
+      "description": "Unexpected HTTP status."
+    },
+    {
+      "id": "94c73e1c-a9ab-4bf4-b401-f46228a4f1b5",
+      "service_id": "gd-app",
+      "type": "resolved",
+      "observed_at": "2026-10-23T16:20:05.866862Z",
+      "description": "Expected response and content observed."
+    }
+  ],
+  "passed": 8
+}

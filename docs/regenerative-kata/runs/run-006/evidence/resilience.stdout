@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "check": "Collection never calls sink and publishes impairment independently",
+      "outcome": "pass"
+    },
+    {
+      "check": "Recovery collection/export proceeds while delivery worker is stalled",
+      "outcome": "pass"
+    },
+    {
+      "check": "Delivery max-events bounds backlog drain",
+      "outcome": "pass"
+    },
+    {
+      "check": "Queued openings and recoveries survive then deliver without loss",
+      "outcome": "pass"
+    }
+  ],
+  "passed": 4,
+  "failure_collect_seconds": 0.09410604590084404,
+  "recovery_collect_during_stall_seconds": 0.08310140098910779,
+  "sink_delay_seconds": 2,
+  "synthetic_budget_seconds": 1.5,
+  "explanation": "1.5s is a local test budget with fast loopback probes, not a production service promise",
+  "relative_work": "evaluation/generated/resilience-kj23i23_"
+}

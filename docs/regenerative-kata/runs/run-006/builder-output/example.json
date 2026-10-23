@@ -1,0 +1,11 @@
+{
+  "title": "Synthetic Groundhog Day status",
+  "support_url": "https://example.invalid/support",
+  "notification_url": "http://127.0.0.1:8765/events",
+  "refresh_seconds": 1,
+  "refresh_timeout_seconds": 0.5,
+  "services": [
+    {"id":"wash-info","name":"Synthetic wash information","url":"http://127.0.0.1:8765/ok","kind":"first_party","impact":"Information display only; this check does not establish wash availability.","expected_codes":[200],"keywords":["Groundhog Day"],"timeout_seconds":1,"stale_after_seconds":10},
+    {"id":"provider","name":"Synthetic provider reachability","url":"http://127.0.0.1:8765/reachability","kind":"provider_reachability","impact":"Provider HTTP reachability only.","expected_codes":[401],"keywords":[],"timeout_seconds":1,"stale_after_seconds":10}
+  ]
+}

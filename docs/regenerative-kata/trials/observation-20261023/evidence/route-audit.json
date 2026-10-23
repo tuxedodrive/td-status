@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-23T19:49Z",
+  "served_allowlist": [
+    "/",
+    "/index.html",
+    "/status.json",
+    "/robots.txt"
+  ],
+  "private_source_config_runtime_git_traversal_paths": "404 in actual read-only probes",
+  "POST": "405 previously verified",
+  "all_served_html_json_robots_inspected": true,
+  "company_provider_host_path_probe_url_scan_hits": [],
+  "json_fields_reviewed": [
+    "services/history",
+    "incidents",
+    "notification_events"
+  ],
+  "notification_event_content": "neutral service ID, generated event ID, type, timestamp, delivery flag only",
+  "access_boundary": "loopback plus existing SSH; noindex is not authorization",
+  "future_exposure": "pending explicit approval"
+}

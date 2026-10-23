@@ -1,0 +1,9 @@
+{
+  "neutral_title": true,
+  "ten_neutral_labels": true,
+  "no_company_or_provider_branding": true,
+  "no_probe_urls_in_public": true,
+  "notes_anchor": true,
+  "noindex": true,
+  "unknown_without_observations": true
+}

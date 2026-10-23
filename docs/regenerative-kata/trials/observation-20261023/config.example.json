@@ -1,0 +1,180 @@
+{
+  "title": "Observation Board",
+  "support_url": "#trial-notes",
+  "refresh_seconds": 60,
+  "refresh_timeout_seconds": 3,
+  "services": [
+    {
+      "id": "service-01",
+      "name": "Service 01",
+      "url": "https://service01.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-02",
+      "name": "Service 02",
+      "url": "https://service02.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-03",
+      "name": "Service 03",
+      "url": "https://service03.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-04",
+      "name": "Service 04",
+      "url": "https://service04.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-05",
+      "name": "Service 05",
+      "url": "https://service05.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-06",
+      "name": "Service 06",
+      "url": "https://service06.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-07",
+      "name": "Service 07",
+      "url": "https://service07.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-08",
+      "name": "Service 08",
+      "url": "https://service08.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-09",
+      "name": "Service 09",
+      "url": "https://service09.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    },
+    {
+      "id": "service-10",
+      "name": "Service 10",
+      "url": "https://service10.example.invalid/health",
+      "kind": "first_party",
+      "impact": "One explicitly registered check only; it does not establish every operation is healthy.",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": 1800
+    }
+  ],
+  "comparison_mapping": [
+    {
+      "neutral_id": "service-01",
+      "source_id": "private-reference-01"
+    },
+    {
+      "neutral_id": "service-02",
+      "source_id": "private-reference-02"
+    },
+    {
+      "neutral_id": "service-03",
+      "source_id": "private-reference-03"
+    },
+    {
+      "neutral_id": "service-04",
+      "source_id": "private-reference-04"
+    },
+    {
+      "neutral_id": "service-05",
+      "source_id": "private-reference-05"
+    },
+    {
+      "neutral_id": "service-06",
+      "source_id": "private-reference-06"
+    },
+    {
+      "neutral_id": "service-07",
+      "source_id": "private-reference-07"
+    },
+    {
+      "neutral_id": "service-08",
+      "source_id": "private-reference-08"
+    },
+    {
+      "neutral_id": "service-09",
+      "source_id": "private-reference-09"
+    },
+    {
+      "neutral_id": "service-10",
+      "source_id": "private-reference-10"
+    }
+  ]
+}

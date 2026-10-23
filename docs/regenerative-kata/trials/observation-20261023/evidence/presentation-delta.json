@@ -1,0 +1,11 @@
+{
+  "base_revision": "f6cd5de26e30264947907aaa64526ba3e2e10c2a",
+  "base_source_sha256": "f35a26e9169699e02a7dea1b9ed61e0c85a8ea4ebfc888e4c10829acc9fca0f9",
+  "trial_source_sha256": "74efc08e3caa92f5c20b0de9240a2325f91ff94395320bfcf96386bca5eabb56",
+  "changes": [
+    "Neutral title and noindex metadata",
+    "Trial-only safe local notes anchor and label",
+    "No collection, state, history, freshness, delivery or polling logic changes"
+  ],
+  "claim": "Scoped trial presentation delta, not a new clean-room regeneration"
+}

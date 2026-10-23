@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-10-23T19:49:32.249022Z",
+  "collection_cycles": 1,
+  "collection_exit": 0,
+  "collection_elapsed_seconds": 3.8946483420440927,
+  "candidate_observed_at": "2026-10-23T19:35:49.688654Z",
+  "candidate_states": {
+    "healthy": 9,
+    "impaired": 1,
+    "unknown": 0
+  },
+  "reference_summary_fetched_at": "2026-10-23T19:41:05.077955Z",
+  "reference_summary_http_status": 200,
+  "reference_summary_coverage": 10,
+  "reference_summary_states": {
+    "up": 10
+  },
+  "reference_summary_observation_timestamps_available": false,
+  "reference_summary_sha256": "79be3d4c92b5f22679429216a742d6b2b1889583ba655232eb2452d90c822e90",
+  "dated_history_coverage": 10,
+  "dated_history_observation_date": "2026-05-16",
+  "time_aligned_history_samples": 0,
+  "local_sink_delivery_exit": 0,
+  "interpretation": "One initial discrepancy is not a correctness result. Summary observation freshness is unknown; dated history is months out of alignment. No natural recovery transition has yet been observed. Synthetic controlled evaluations remain separate evidence."
+}

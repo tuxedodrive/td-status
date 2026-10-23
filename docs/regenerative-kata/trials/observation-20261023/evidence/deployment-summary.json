@@ -1,0 +1,17 @@
+{
+  "base_revision": "f6cd5de26e30264947907aaa64526ba3e2e10c2a",
+  "verified_at": "2026-10-23T19:35:53.528000Z",
+  "planned_end": "2026-10-25T19:35:53.528020Z",
+  "access": "Verified loopback-only board via existing authorized SSH forwarding; no public endpoint",
+  "interval_seconds": 900,
+  "trial_stale_seconds": 1800,
+  "ten_registered_checks": true,
+  "neutral_public_content_verified": true,
+  "private_routes_denied": true,
+  "noindex_header_and_meta_verified": true,
+  "external_notifications": "Disabled; controlled loopback sink only",
+  "current_reference": "Live page exact summary HTTP200 ten records without observation timestamps; separate dated history samples May16 not aligned",
+  "prior_demo_untouched": true,
+  "security_or_dns_changes": false,
+  "completion_report": "Automatically written privately at trial end; no outcome claimed yet"
+}

@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "check": "Healthy initial observation sends no alert",
+      "outcome": "pass"
+    },
+    {
+      "check": "Failure commits one pending opened event despite sink 503",
+      "outcome": "pass"
+    },
+    {
+      "check": "Pending event POST attempted with stable id",
+      "outcome": "pass"
+    },
+    {
+      "check": "Restarted collection retries same event and marks delivered",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated impairment neither duplicates nor resends delivered event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Recovery sends one distinct resolved event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated success sends no duplicate recovery",
+      "outcome": "pass"
+    },
+    {
+      "check": "Alert payload contains safe event identity and no private probe URL",
+      "outcome": "pass"
+    }
+  ],
+  "received": [
+    {
+      "id": "27b2daea-1302-4345-b74b-0c955452bc3e",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-10-23T15:02:09.888888Z",
+      "description": "Check incident opened."
+    },
+    {
+      "id": "27b2daea-1302-4345-b74b-0c955452bc3e",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-10-23T15:02:09.888888Z",
+      "description": "Check incident opened."
+    },
+    {
+      "id": "785a5b36-fab1-4209-8901-0e9c4ae4e5f7",
+      "service_id": "gd-app",
+      "type": "resolved",
+      "observed_at": "2026-10-23T15:02:12.888888Z",
+      "description": "Check incident resolved."
+    }
+  ],
+  "passed": 8
+}

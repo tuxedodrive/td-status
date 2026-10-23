@@ -1,0 +1,9 @@
+{
+  "old_monitor_pid": 491592,
+  "new_monitor_pid": 492264,
+  "pid_identity_checked": true,
+  "support_before_service_cards": true,
+  "public_port": 44167,
+  "outcome": "pass",
+  "other_processes_unchanged": true
+}

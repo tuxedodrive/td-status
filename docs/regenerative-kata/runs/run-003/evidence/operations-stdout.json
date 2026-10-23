@@ -1,0 +1,7 @@
+{
+  "http_status": 200,
+  "published_site_works_with_dependencies_and_monitor_stopped": true,
+  "backup_restore_preserves_observations_and_incidents": true,
+  "exposure": "127.0.0.1 only; temporary server stopped in finally",
+  "temporary_server_stopped": true
+}

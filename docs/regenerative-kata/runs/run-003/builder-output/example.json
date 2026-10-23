@@ -1,0 +1,19 @@
+{
+  "title": "Groundhog Day synthetic status",
+  "support_url": "https://example.invalid/support",
+  "refresh_seconds": 2,
+  "notification_url": "http://127.0.0.1:8765/events",
+  "services": [
+    {
+      "id": "optional-receipts",
+      "name": "Synthetic receipt check",
+      "url": "http://127.0.0.1:8765/check",
+      "kind": "first_party",
+      "impact": "Optional receipt display only; wash operation is outside this check.",
+      "expected_codes": [200],
+      "keywords": ["Groundhog ready"],
+      "timeout_seconds": 1,
+      "stale_after_seconds": 20
+    }
+  ]
+}

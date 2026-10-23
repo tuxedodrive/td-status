@@ -1,0 +1,50 @@
+{
+  "purpose": "Live fully synthetic Groundhog Day demo; loopback-only, no external integration",
+  "dependency_port": 56597,
+  "public_port": 44167,
+  "processes": [
+    {
+      "role": "synthetic-dependency-and-sink",
+      "pid": 491590,
+      "command": [
+        "/usr/bin/python3",
+        "/home/stig/experiments/td-meta-176/run-003/builder-output/demo.py",
+        "--port",
+        "56597"
+      ]
+    },
+    {
+      "role": "monitor",
+      "pid": 491592,
+      "command": [
+        "/usr/bin/python3",
+        "/home/stig/experiments/td-meta-176/run-003/builder-output/status.py",
+        "run",
+        "--config",
+        "/home/stig/experiments/td-meta-176/run-003/demo-runtime/config.json",
+        "--db",
+        "/home/stig/experiments/td-meta-176/run-003/demo-runtime/state.sqlite",
+        "--output",
+        "/home/stig/experiments/td-meta-176/run-003/demo-runtime/public",
+        "--interval",
+        "2"
+      ]
+    },
+    {
+      "role": "public-static-loopback",
+      "pid": 491596,
+      "command": [
+        "/usr/bin/python3",
+        "-m",
+        "http.server",
+        "44167",
+        "--bind",
+        "127.0.0.1",
+        "--directory",
+        "/home/stig/experiments/td-meta-176/run-003/demo-runtime/public"
+      ]
+    }
+  ],
+  "stop_command": "python3 evaluation/live_demo.py stop",
+  "policies": "2-second monitor/refresh, 20-second stale horizon, 1-second probe timeout: explicit demo choices, not user requirements"
+}

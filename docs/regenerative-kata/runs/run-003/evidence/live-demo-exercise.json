@@ -1,0 +1,49 @@
+{
+  "steps": [
+    {
+      "expected": "healthy",
+      "observed_at": "2026-10-23T15:06:48.316274Z",
+      "http_status": 200,
+      "events": []
+    },
+    {
+      "expected": "impaired",
+      "observed_at": "2026-10-23T15:06:50.327287Z",
+      "http_status": 502,
+      "events": [
+        {
+          "id": "a73fef00-04d5-4268-a4c6-6b75123f258a",
+          "service_id": "optional-receipts",
+          "type": "opened",
+          "observed_at": "2026-10-23T15:06:50.327287Z",
+          "delivered": true
+        }
+      ]
+    },
+    {
+      "expected": "healthy",
+      "observed_at": "2026-10-23T15:06:52.343238Z",
+      "http_status": 200,
+      "events": [
+        {
+          "id": "a73fef00-04d5-4268-a4c6-6b75123f258a",
+          "service_id": "optional-receipts",
+          "type": "opened",
+          "observed_at": "2026-10-23T15:06:50.327287Z",
+          "delivered": true
+        },
+        {
+          "id": "0de40fa2-ea99-4235-8394-b4d82e7fc923",
+          "service_id": "optional-receipts",
+          "type": "resolved",
+          "observed_at": "2026-10-23T15:06:52.343238Z",
+          "delivered": true
+        }
+      ]
+    }
+  ],
+  "public_http_status": 200,
+  "transport": "loopback-only synthetic sink; no real alert delivery",
+  "outcome": "pass",
+  "demo_left": "running healthy on recorded loopback ports"
+}

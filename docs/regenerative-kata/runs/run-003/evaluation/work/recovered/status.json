@@ -1,0 +1,503 @@
+{
+  "generated_at": "2026-10-23T15:07:46Z",
+  "title": "Groundhog Day synthetic status",
+  "support_url": "https://support.example.invalid/help",
+  "refresh_seconds": 5,
+  "services": [
+    {
+      "id": "gd-application",
+      "name": "Groundhog Day Application",
+      "kind": "first_party",
+      "impact": "Core platform health endpoint",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 200,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 8.92,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 0,
+          "http_status": 502,
+          "elapsed_ms": 9.1,
+          "description": "Unexpected HTTP status."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 0,
+          "http_status": 502,
+          "elapsed_ms": 11.31,
+          "description": "Unexpected HTTP status."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 7.71,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 8.42,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-edge",
+      "name": "Groundhog Day Edge",
+      "kind": "first_party",
+      "impact": "Core platform health endpoint",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 200,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.76,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 1.61,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 1.52,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.8,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 1.3,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-payments",
+      "name": "Groundhog Day Payments",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.96,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.92,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.99,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 1.28,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.83,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-email",
+      "name": "Groundhog Day Email",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.73,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 1.1,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 1.0,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.95,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.73,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-sms",
+      "name": "Groundhog Day SMS",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.78,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.9,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.86,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.82,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.76,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-authentication",
+      "name": "Groundhog Day Authentication",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 200,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.63,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.82,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.91,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.73,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.73,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-weather",
+      "name": "Groundhog Day Weather",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 1.04,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.76,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.71,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.9,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-pollen",
+      "name": "Groundhog Day Pollen",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.69,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.85,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.7,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 0,
+          "http_status": 502,
+          "elapsed_ms": 0.64,
+          "description": "Unexpected HTTP status."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.74,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-hosting",
+      "name": "Groundhog Day Hosting",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 200,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.65,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.74,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.75,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.57,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 200,
+          "elapsed_ms": 0.75,
+          "description": "Expected response and content observed."
+        }
+      ]
+    },
+    {
+      "id": "gd-secrets",
+      "name": "Groundhog Day Secrets",
+      "kind": "provider_reachability",
+      "impact": "This dependency only; other wash operations may be unaffected",
+      "stale_after_seconds": 60,
+      "state": "healthy",
+      "observed_at": "2026-10-23T15:07:46Z",
+      "http_status": 401,
+      "description": "Expected response and content observed.",
+      "history": [
+        {
+          "observed_at": "2026-10-23T15:07:06Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.67,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:21Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:26Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.73,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:36Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.68,
+          "description": "Expected response and content observed."
+        },
+        {
+          "observed_at": "2026-10-23T15:07:46Z",
+          "success": 1,
+          "http_status": 401,
+          "elapsed_ms": 0.8,
+          "description": "Expected response and content observed."
+        }
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "service_id": "gd-application",
+      "opened_at": "2026-10-23T15:07:21Z",
+      "resolved_at": "2026-10-23T15:07:36Z",
+      "description": "Check impaired; see the listed service impact."
+    },
+    {
+      "service_id": "gd-pollen",
+      "opened_at": "2026-10-23T15:07:36Z",
+      "resolved_at": "2026-10-23T15:07:46Z",
+      "description": "Check impaired; see the listed service impact."
+    }
+  ],
+  "notification_events": []
+}

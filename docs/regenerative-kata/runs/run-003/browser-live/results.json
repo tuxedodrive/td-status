@@ -1,0 +1,392 @@
+{
+  "results": [
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All listed checks have healthy evidence within their observation limits.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 390,
+      "documentWidth": 390,
+      "case": "recover-phone",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All listed checks have healthy evidence within their observation limits.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 720,
+      "documentWidth": 720,
+      "case": "recover-square",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nCore platform health endpoint\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:46Z\n\nExpected response and content observed.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All listed checks have healthy evidence within their observation limits.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 820,
+      "documentWidth": 820,
+      "case": "recover-tablet",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown; see individual impacts.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 390,
+      "documentWidth": 390,
+      "case": "offline-phone",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown; see individual impacts.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 720,
+      "documentWidth": 720,
+      "case": "offline-square",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nCore platform health endpoint\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. This check covers only the listed scope."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nThis dependency only; other wash operations may be unaffected\n\n2026-10-23T15:07:06Z\n\nEvidence missing or stale; current health is unknown.\n\nEvidence expires after 60 seconds. Provider reachability does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown; see individual impacts.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 820,
+      "documentWidth": 820,
+      "case": "offline-tablet",
+      "outcome": "pass"
+    }
+  ],
+  "requests": [
+    "/recover/index.html",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/recover/index.html",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/recover/index.html",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/offline/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/offline/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/offline/status.json"
+  ],
+  "server": "Temporary loopback-only evaluator fixture; stopped",
+  "scope": "Open-page recovery without manual reload, failed refresh preserves evidence age"
+}

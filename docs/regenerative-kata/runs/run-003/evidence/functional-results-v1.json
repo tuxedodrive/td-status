@@ -1,0 +1,85 @@
+{
+  "checks": [
+    {
+      "check": "Registered services without observations are unknown",
+      "outcome": "pass"
+    },
+    {
+      "check": "All ten explicit checks healthy, including expected 401 provider reachability",
+      "outcome": "pass"
+    },
+    {
+      "check": "Received 502 marks only affected component impaired",
+      "outcome": "pass"
+    },
+    {
+      "check": "Failure has code, description and observation timestamp",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated failure retains one open incident",
+      "outcome": "pass"
+    },
+    {
+      "check": "Fresh success recovers core while minor dependency stays scoped",
+      "outcome": "pass"
+    },
+    {
+      "check": "Incident resolves on recovery evidence",
+      "outcome": "pass"
+    },
+    {
+      "check": "Full recovery restores healthy",
+      "outcome": "pass"
+    },
+    {
+      "check": "History survives separate process restarts",
+      "outcome": "pass"
+    },
+    {
+      "check": "Resolved incidents retained",
+      "outcome": "pass"
+    },
+    {
+      "check": "Aged successful evidence is unknown, not current healthy",
+      "outcome": "pass"
+    },
+    {
+      "check": "Expected code with missing keyword is impaired",
+      "outcome": "pass"
+    },
+    {
+      "check": "Probe timeout is impaired without crashing cycle",
+      "outcome": "pass"
+    },
+    {
+      "check": "Provider meaning and scope remain explicit",
+      "outcome": "pass"
+    },
+    {
+      "check": "Public files omit private URL/body/traceback",
+      "outcome": "pass"
+    },
+    {
+      "check": "Bounded monitor loop collects and persists two cycles",
+      "outcome": "pass"
+    },
+    {
+      "check": "Duplicate registry rejected",
+      "outcome": "pass"
+    },
+    {
+      "check": "Removed service absent from public registry and incidents",
+      "outcome": "pass"
+    },
+    {
+      "check": "Stopped dependencies cannot masquerade as healthy",
+      "outcome": "pass"
+    },
+    {
+      "check": "Published site still exists while all dependencies offline",
+      "outcome": "pass"
+    }
+  ],
+  "passed": 20
+}

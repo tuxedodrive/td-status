@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/jpb/Documents/Codex/2026-10-22/task-2/run-003/evaluation/browser.py", line 30, in <module>
+    assert proof['support']['top']>=0 and proof['support']['bottom']<=height,name+': support outside initial viewport'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: healthy-phone: support outside initial viewport

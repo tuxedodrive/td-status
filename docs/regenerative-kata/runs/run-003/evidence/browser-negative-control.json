@@ -1,0 +1,6 @@
+{
+  "mutation": "Synthetic recovery response returns impaired instead of healthy; implementation/output unchanged",
+  "exit_code": 1,
+  "rejected": true,
+  "diagnostic_file": "browser-negative-control.stderr"
+}

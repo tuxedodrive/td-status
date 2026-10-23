@@ -1,0 +1,13 @@
+{
+  "route": "Temporary SSH localhost-only tunnel to actual Priory loopback demo",
+  "public_port_on_priory": 44167,
+  "http_status": 200,
+  "service_state": "healthy",
+  "actual_browser_rendered": true,
+  "viewport": [
+    390,
+    844
+  ],
+  "temporary_tunnel_stopped": true,
+  "app_left_running_on_priory": true
+}

@@ -50,3 +50,7 @@ python3 evaluation/evaluate.py snapshots
 The evaluator inspects HTML semantics and an explicit color declaration, not computed browser style, visual presentation, accessibility, or responsive usability. It does not establish help effectiveness, proportionate impact comprehension, unknown/stale evidence policy, multi-component behavior, live probes/scheduling, or production readiness. Original obligations remain in the contract; no timing thresholds, incident log, or downtime duration were added. The HTML remains a generated experimental artifact, not a production replacement.
 
 Next: review the three snapshots and the small interface/evaluator choices before deciding the next experiment. Brownfield characterization for TD Edge/Core remains pinned research, not started here.
+
+## Follow-up browser evidence
+
+The later [browser and obligation review](browser-review/README.md) adds nine passing local Chrome viewport checks and screenshots, with explicit coverage/omissions. Earlier notes above describe the initial evaluation stage; browser responsiveness now has bounded viewport evidence, while full responsive usability and the broader obligations remain unestablished. Original implementation and output hashes are unchanged.

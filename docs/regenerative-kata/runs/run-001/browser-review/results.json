@@ -1,0 +1,294 @@
+{
+  "browser": "Google Chrome for Testing 147.0.7727.15",
+  "route": "Local file copies of Priory output with evaluation-only DOM probe; no app changes",
+  "results": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 33,
+        "y": 139.859375,
+        "width": 324,
+        "height": 58.875,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 16,
+        "y": 436.484375,
+        "width": 358,
+        "height": 374.984375,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:00:00Z",
+      "case": "phone-step-000",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 33,
+        "y": 139.859375,
+        "width": 324,
+        "height": 58.875,
+        "fontSize": "18.4px",
+        "color": "rgb(255, 0, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Failure \u2014 this component returned HTTP 502 (Bad Gateway)."
+      },
+      "help": {
+        "x": 16,
+        "y": 436.484375,
+        "width": 358,
+        "height": 374.984375,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:15:00Z",
+      "case": "phone-step-001",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 33,
+        "y": 139.859375,
+        "width": 324,
+        "height": 58.875,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 16,
+        "y": 436.484375,
+        "width": 358,
+        "height": 374.984375,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:30:00Z",
+      "case": "phone-step-002",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 51.390625,
+        "y": 175.859375,
+        "width": 617.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 28.796875,
+        "y": 397.453125,
+        "width": 662.40625,
+        "height": 283.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:00:00Z",
+      "case": "square-step-000",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 51.390625,
+        "y": 175.859375,
+        "width": 617.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(255, 0, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Failure \u2014 this component returned HTTP 502 (Bad Gateway)."
+      },
+      "help": {
+        "x": 28.796875,
+        "y": 397.453125,
+        "width": 662.40625,
+        "height": 283.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:15:00Z",
+      "case": "square-step-001",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 51.390625,
+        "y": 175.859375,
+        "width": 617.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 28.796875,
+        "y": 397.453125,
+        "width": 662.40625,
+        "height": 283.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:30:00Z",
+      "case": "square-step-002",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 100.390625,
+        "y": 182.859375,
+        "width": 619.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 74.796875,
+        "y": 407.453125,
+        "width": 670.40625,
+        "height": 289.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:00:00Z",
+      "case": "tablet-step-000",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 100.390625,
+        "y": 182.859375,
+        "width": 619.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(255, 0, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Failure \u2014 this component returned HTTP 502 (Bad Gateway)."
+      },
+      "help": {
+        "x": 74.796875,
+        "y": 407.453125,
+        "width": 670.40625,
+        "height": 289.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:15:00Z",
+      "case": "tablet-step-001",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "noHorizontalOverflow": true,
+      "overflowElements": [],
+      "status": {
+        "x": 100.390625,
+        "y": 182.859375,
+        "width": 619.21875,
+        "height": 29.4375,
+        "fontSize": "18.4px",
+        "color": "rgb(0, 128, 0)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Healthy \u2014 this component responded successfully."
+      },
+      "help": {
+        "x": 74.796875,
+        "y": 407.453125,
+        "width": 670.40625,
+        "height": 289.796875,
+        "fontSize": "16px",
+        "color": "rgb(23, 33, 43)",
+        "display": "block",
+        "visibility": "visible",
+        "text": "Help with a wash problem\n\nA component observation cannot diagnose every wash problem. Help remains available here regardless of the displayed status.\n\nIllustrative help destination \u2014 demonstration only\n\nThis example help destination does not contact a support team or promise a response. In a real service, consult its verified support information."
+      },
+      "observationTime": "2030-02-02T12:30:00Z",
+      "case": "tablet-step-002",
+      "outcome": "pass"
+    }
+  ]
+}

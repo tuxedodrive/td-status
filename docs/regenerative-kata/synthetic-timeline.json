@@ -1,0 +1,102 @@
+{
+  "fixture_version": "0.1-draft",
+  "provenance": {
+    "kind": "fully_synthetic",
+    "created_for": "regenerative status-page kata",
+    "historical_data_used": false,
+    "reference_policy": "Real observation shape/cadence may inform authoring; no historical event is fixture truth.",
+    "authorship": "Proposed fixture values; expected behavior reflects the agreed scenario.",
+    "run_status": "not_run"
+  },
+  "proposed_values": [
+    "Groundhog Day namespace and component name",
+    "Arbitrary 2030-02-02 date and 15-minute spacing; not a debounce/freshness policy",
+    "Input field names and explanatory wording"
+  ],
+  "input_boundary": {
+    "version": "0.1-draft",
+    "description": "Ordered fixed observations; no probes, scheduling, or live dependencies.",
+    "required_fields": [
+      "component_id",
+      "observed_at",
+      "result"
+    ],
+    "result_fields": [
+      "kind",
+      "http_status"
+    ]
+  },
+  "inputs": {
+    "components": [
+      {
+        "id": "groundhog-day-wash",
+        "name": "Groundhog Day Wash"
+      }
+    ],
+    "observations": [
+      {
+        "component_id": "groundhog-day-wash",
+        "observed_at": "2030-02-02T12:00:00Z",
+        "result": {
+          "kind": "success",
+          "http_status": 200
+        }
+      },
+      {
+        "component_id": "groundhog-day-wash",
+        "observed_at": "2030-02-02T12:15:00Z",
+        "result": {
+          "kind": "http_failure",
+          "http_status": 502
+        }
+      },
+      {
+        "component_id": "groundhog-day-wash",
+        "observed_at": "2030-02-02T12:30:00Z",
+        "result": {
+          "kind": "success",
+          "http_status": 200
+        }
+      }
+    ]
+  },
+  "expected_observable_outcomes": [
+    {
+      "after_observation": 0,
+      "color": "green",
+      "meaning": "Healthy"
+    },
+    {
+      "after_observation": 1,
+      "color": "red",
+      "meaning": "A clear description of the failure is visible.",
+      "timestamp": "2030-02-02T12:15:00Z",
+      "numeric_502_display": "optional",
+      "wording": "No exact wording prescribed"
+    },
+    {
+      "after_observation": 2,
+      "color": "green",
+      "meaning": "Fresh success restores healthy status"
+    }
+  ],
+  "not_required_now": [
+    "Downtime duration",
+    "Incident logging"
+  ],
+  "not_evaluated_by_this_fixture": [
+    "Unknown/stale evidence policy",
+    "Proportionate impact",
+    "Help journey",
+    "Responsive usability"
+  ],
+  "run_record_template": {
+    "contract_revision": null,
+    "fixture_revision": null,
+    "boundary_version": "0.1-draft",
+    "builder_inputs": null,
+    "output_revision": null,
+    "trigger": null,
+    "evaluation_result": null
+  }
+}

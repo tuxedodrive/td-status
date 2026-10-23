@@ -1,0 +1,18 @@
+{
+  "calls": 1,
+  "states": [
+    "impaired",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy",
+    "healthy"
+  ],
+  "fixture": "First fetch never resolves unless aborted; subsequent requests expose successful recovery",
+  "policy": "1s polling / 0.5s deadline; result captured at 3.5s synthetic browser time",
+  "passed": false
+}

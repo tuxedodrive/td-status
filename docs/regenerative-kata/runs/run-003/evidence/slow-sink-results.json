@@ -1,0 +1,30 @@
+{
+  "sink_delay_seconds_per_event": 2,
+  "queued_events": 3,
+  "observation": "Checked public file 0.5 seconds after first slow POST began",
+  "public_states_during_delivery": [
+    "healthy",
+    "healthy",
+    "healthy"
+  ],
+  "public_states_after_delivery": [
+    "impaired",
+    "impaired",
+    "impaired"
+  ],
+  "public_generation_unchanged_while_delivery": true,
+  "collect_elapsed_seconds": 6.114,
+  "confirmed_publication_coupling": true,
+  "command": [
+    "/usr/bin/python3",
+    "/home/stig/experiments/td-meta-176/run-003/builder-output/status.py",
+    "collect",
+    "--config",
+    "/home/stig/experiments/td-meta-176/run-003/evaluation/slow-sink-work/config.json",
+    "--db",
+    "/home/stig/experiments/td-meta-176/run-003/evaluation/slow-sink-work/state.sqlite",
+    "--output",
+    "/home/stig/experiments/td-meta-176/run-003/evaluation/slow-sink-work/public"
+  ],
+  "scope": "Synthetic loopback fixture only; current demo unchanged"
+}

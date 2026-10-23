@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "check": "Email accepted while GitHub failure returns retryable 503",
+      "outcome": "pass"
+    },
+    {
+      "check": "SMTP message contains event identity and recipient",
+      "outcome": "pass"
+    },
+    {
+      "check": "Restart retries GitHub without resending accepted email",
+      "outcome": "pass"
+    },
+    {
+      "check": "Completed duplicate is acknowledged without side effects",
+      "outcome": "pass"
+    },
+    {
+      "check": "Recovery sends email and closes mapped GitHub issue",
+      "outcome": "pass"
+    },
+    {
+      "check": "New incident opens new issue after resolution",
+      "outcome": "pass"
+    },
+    {
+      "check": "GitHub requests use explicit auth and one scoped repository",
+      "outcome": "pass"
+    },
+    {
+      "check": "Invalid event rejected without transport side effects",
+      "outcome": "pass"
+    },
+    {
+      "check": "Negative control: failed GitHub delivery cannot be acknowledged complete",
+      "outcome": "pass"
+    }
+  ],
+  "passed": 9,
+  "smtp_messages": [
+    "From: synthetic@example.invalid\r\nTo: engineering@example.invalid\r\nSubject: Service Alert: Groundhog Day Service =?utf-8?b?4oCU?= opened\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\nMIME-Version: 1.0\r\n\r\nService: Groundhog Day Service\r\nType: opened\r\nTime: 2030-02-02T12:00:00Z\r\nDescription: Synthetic HTTP 502 observed\r\nEvent id: synthetic-open-1\r\n",
+    "From: synthetic@example.invalid\r\nTo: engineering@example.invalid\r\nSubject: Service Alert: Groundhog Day Service =?utf-8?b?4oCU?= resolved\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\nMIME-Version: 1.0\r\n\r\nService: Groundhog Day Service\r\nType: resolved\r\nTime: 2030-02-02T12:01:00Z\r\nDescription: Synthetic HTTP 502 observed\r\nEvent id: synthetic-resolved-1\r\n",
+    "From: synthetic@example.invalid\r\nTo: engineering@example.invalid\r\nSubject: Service Alert: Groundhog Day Service =?utf-8?b?4oCU?= opened\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\nMIME-Version: 1.0\r\n\r\nService: Groundhog Day Service\r\nType: opened\r\nTime: 2030-02-02T12:00:00Z\r\nDescription: Synthetic HTTP 502 observed\r\nEvent id: synthetic-open-2\r\n",
+    "From: synthetic@example.invalid\r\nTo: engineering@example.invalid\r\nSubject: Service Alert: gd-second =?utf-8?b?4oCU?= opened\r\nContent-Type: text/plain; charset=\"utf-8\"\r\nContent-Transfer-Encoding: 7bit\r\nMIME-Version: 1.0\r\n\r\nService: gd-second\r\nType: opened\r\nTime: 2030-02-02T12:00:00Z\r\nDescription: Synthetic HTTP 502 observed\r\nEvent id: synthetic-service2\r\n"
+  ],
+  "github_requests": [
+    {
+      "method": "POST",
+      "path": "/repos/synthetic/status/issues",
+      "body": {
+        "title": "Service Alert: Groundhog Day Service",
+        "body": "Service: Groundhog Day Service\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-open-1\n<!-- status-service:gd-service -->"
+      },
+      "auth_correct": true
+    },
+    {
+      "method": "POST",
+      "path": "/repos/synthetic/status/issues",
+      "body": {
+        "title": "Service Alert: Groundhog Day Service",
+        "body": "Service: Groundhog Day Service\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-open-1\n<!-- status-service:gd-service -->"
+      },
+      "auth_correct": true
+    },
+    {
+      "method": "PATCH",
+      "path": "/repos/synthetic/status/issues/1",
+      "body": {
+        "state": "closed",
+        "state_reason": "completed"
+      },
+      "auth_correct": true
+    },
+    {
+      "method": "POST",
+      "path": "/repos/synthetic/status/issues",
+      "body": {
+        "title": "Service Alert: Groundhog Day Service",
+        "body": "Service: Groundhog Day Service\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-open-2\n<!-- status-service:gd-service -->"
+      },
+      "auth_correct": true
+    },
+    {
+      "method": "POST",
+      "path": "/repos/synthetic/status/issues",
+      "body": {
+        "title": "Service Alert: gd-second",
+        "body": "Service: gd-second\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-service2\n<!-- status-service:gd-second -->"
+      },
+      "auth_correct": true
+    }
+  ],
+  "issues": {
+    "1": {
+      "title": "Service Alert: Groundhog Day Service",
+      "body": "Service: Groundhog Day Service\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-open-1\n<!-- status-service:gd-service -->",
+      "number": 1,
+      "state": "closed",
+      "state_reason": "completed"
+    },
+    "2": {
+      "title": "Service Alert: Groundhog Day Service",
+      "body": "Service: Groundhog Day Service\nType: opened\nTime: 2030-02-02T12:00:00Z\nDescription: Synthetic HTTP 502 observed\nEvent id: synthetic-open-2\n<!-- status-service:gd-service -->",
+      "number": 2,
+      "state": "open"
+    }
+  },
+  "all_destinations": "Loopback synthetic servers; no external messages"
+}

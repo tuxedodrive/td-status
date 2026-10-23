@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/jpb/Documents/Codex/2026-10-22/task-2/run-003/evaluation/browser_hung.py", line 29, in <module>
+    (root/'evidence/browser-hung-result.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2));assert result['passed'],'Hung fetch prevented later recovery'
+                                                                                                                                      ~~~~~~^^^^^^^^^^
+AssertionError: Hung fetch prevented later recovery

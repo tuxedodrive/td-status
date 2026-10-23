@@ -1,0 +1,151 @@
+{
+  "title": "TuxedoDrive Status",
+  "support_url": "mailto:engineering@tuxedodrive.com",
+  "activation_enabled": false,
+  "draft_notice": "Dormant source-mapped draft, never executed. Null stale_after_seconds intentionally fails validation until policy is explicitly selected. No credentials.",
+  "refresh_seconds": 5,
+  "services": [
+    {
+      "id": "production-application",
+      "name": "Production Application",
+      "url": "https://tuxedodrive.com/health",
+      "kind": "first_party",
+      "impact": "Core platform health endpoint only",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [
+        "status",
+        "healthy"
+      ],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "edge-api",
+      "name": "Edge API",
+      "url": "https://api.tuxedodrive.com/health",
+      "kind": "first_party",
+      "impact": "Edge API health endpoint only",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [
+        "status"
+      ],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "url": "https://api.stripe.com/v1/charges",
+      "kind": "provider_reachability",
+      "impact": "Payment provider reachability; credentials and payment completion not established",
+      "expected_codes": [
+        400,
+        401
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "email-delivery",
+      "name": "Email Delivery",
+      "url": "https://api.postmarkapp.com/deliverystats",
+      "kind": "provider_reachability",
+      "impact": "Email provider reachability; message delivery not established",
+      "expected_codes": [
+        401,
+        422
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "sms-notifications",
+      "name": "SMS Notifications",
+      "url": "https://api.twilio.com/",
+      "kind": "provider_reachability",
+      "impact": "SMS provider reachability; message delivery not established",
+      "expected_codes": [
+        200,
+        401,
+        403
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "authentication",
+      "name": "Authentication",
+      "url": "https://accounts.google.com/.well-known/openid-configuration",
+      "kind": "provider_reachability",
+      "impact": "Public identity-provider discovery reachability; account login not established",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "weather-service",
+      "name": "Weather Service",
+      "url": "https://api.openweathermap.org/data/2.5/weather",
+      "kind": "provider_reachability",
+      "impact": "Weather provider reachability only; core wash availability not established",
+      "expected_codes": [
+        401
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "pollen-service",
+      "name": "Pollen Service",
+      "url": "https://pollen.googleapis.com/v1/forecast:lookup",
+      "kind": "provider_reachability",
+      "impact": "Pollen provider reachability only; core wash availability not established",
+      "expected_codes": [
+        403
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "hosting-platform",
+      "name": "Hosting Platform",
+      "url": "https://status.render.com/",
+      "kind": "provider_reachability",
+      "impact": "Hosting provider public status page reachability; hosted application health not established",
+      "expected_codes": [
+        200
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    },
+    {
+      "id": "secrets-management",
+      "name": "Secrets Management",
+      "url": "https://api.doppler.com/",
+      "kind": "provider_reachability",
+      "impact": "Secrets provider reachability; actual secret access not established",
+      "expected_codes": [
+        200,
+        302,
+        400,
+        401
+      ],
+      "keywords": [],
+      "timeout_seconds": 5,
+      "stale_after_seconds": null
+    }
+  ]
+}

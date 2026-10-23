@@ -1,12 +1,38 @@
-# Status app contract kata: first checkpoint
+# Status app contract kata
 
-Draft for discussion, 2026-10-22. Not an approved complete specification, executable test suite, or implementation authorization. Checkpoint on a branch in tuxedodrive/td-status, not main. This document separates desired behavior from source observations so regeneration does not accidentally preserve defects or pretend proposed behavior already exists.
+Draft for discussion, first checkpoint 2026-10-22; bounded kata decisions added 2026-10-23. Not an approved complete specification, executable test suite, or implementation authorization. Checkpoint on a branch in tuxedodrive/td-status, not main. This document separates desired behavior from source observations so regeneration does not accidentally preserve defects or pretend proposed behavior already exists.
 
 ## Purpose and boundary
 
 Help a car-wash owner answer: “If I cannot operate my wash, is it because of a problem outside my four walls or within my four walls?” Report what is known about TuxedoDrive's components and dependencies without claiming to diagnose every local fault. Remain useful when the rest of the platform is unavailable. The app and its status information are public by design.
 
 This is a small characterization-and-regeneration kata, not a redesign of the monitoring platform. Repairing washes, changing infrastructure, compensating unhappy customers, and doing support work are outside the app. The page helps people choose their next action; it need not perform those actions.
+
+## Bounded kata decisions — 2026-10-23
+
+The immediate exercise is a page-only experience driven by fixed observations. It does not implement live probes, scheduling infrastructure, or a replacement for production Upptime. The user expects to continue using an off-the-shelf status service; this proof of concept teaches regeneration for original TD Edge/Core software later. The original journeys and obligations below remain inception context, not an expanded implementation checklist for this first slice. No app build or deployment is authorized by this checkpoint.
+
+### Observable sequence
+
+| Supplied observation | Expected page outcome |
+| --- | --- |
+| Healthy success | The service is shown healthy and green. |
+| Received HTTP 502 | The service is shown red, with a clear description of the failure and its timestamp. Showing the numeric code 502 is optional. |
+| Fresh success after the failure | The service returns to green. |
+
+Downtime duration and incident logging are possible future details, not requirements now. No debounce, sampling, or freshness threshold is selected. The broader uncertainty obligation remains; its policy is an open question, not an invented timing rule.
+
+### Candidate evaluation inputs and provenance
+
+The baseline may use sampled historical April 5–11 observations for the subset corresponding to the current ten services. Historical samples must be distinguished from synthetic or interpolated fixture events: the user permits making up events and interpolating gaps for the exercise. Such events must not be presented as recorded production evidence.
+
+- Historical source pin: [a126bb25eeb7add750d0f3bf1a3174527347484c](https://github.com/tuxedodrive/td-status/commit/a126bb25eeb7add750d0f3bf1a3174527347484c).
+- Production Application down record: [096191b954fe35f416793f8c0a76e196d0e65005](https://github.com/tuxedodrive/td-status/commit/096191b954fe35f416793f8c0a76e196d0e65005), April 8 at 16:30:37.239Z.
+- Recovery record: [468eba536e3e8509e041a9b67153d482780e0bad](https://github.com/tuxedodrive/td-status/commit/468eba536e3e8509e041a9b67153d482780e0bad), April 8 at 17:09:44.913Z.
+
+These are sampled records, not exact outage boundaries. They do not by themselves establish the HTTP 502 narrative; keep any synthetic 502 event labeled accordingly. Later extraction must preserve source commit and blob provenance, plus explicit labels and derivations for synthetic/interpolated events. No extraction is needed for this checkpoint.
+
+Groundhog Day is the proposed canonical fake namespace. The user offered Groundhog Day or staging names; an exclusive naming choice is not settled. Exact fixture shape, final names, and the independent outcome oracle remain open. A narrative timeline with expected observable outcomes, or harvested brownfield history with an independently specified oracle, is sufficient to start evaluation authoring.
 
 ## User-desired journeys and outcomes
 

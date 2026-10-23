@@ -1,0 +1,24 @@
+{
+  "run_id": "run-001",
+  "issue": "https://github.com/tuxedodrive/td-meta/issues/176",
+  "trigger": "User authorized first clean-room synthetic status kata on Priory",
+  "status_contract_revision": "0c764d975365112b2c791047c453b33337cb1a4b",
+  "method_revision": "ae1ee5a7037beb8d1ef9120a2908ede4e60a79ab",
+  "execution_host": "Priory",
+  "execution_user": "stig (uid 1002, non-root, no sudo group)",
+  "hostname_verified": true,
+  "tools": {
+    "python": "3.14.4",
+    "node": "18.20.8",
+    "git": "2.53.0"
+  },
+  "host_observations": "Not empty: system services include PostgreSQL, Docker, Tailscale; ubuntu user processes exist. No existing service or user workload modified. Isolated stig home directory used.",
+  "builder_context": "Fresh agent fork_turns=none; only builder-input/CONTRACT.md and builder-input/observations.json authorized. No old source, history, baseline or links supplied.",
+  "evaluator": "Separate pre-build oracle and stdlib HTMLParser assertions; builder forbidden to read evaluator.",
+  "frozen_hash_manifest": "frozen-inputs.sha256",
+  "scope": "First sequence only; no live monitoring, deployment or package installation",
+  "limitations": [
+    "Static HTML semantic/color inspection does not establish browser rendering or responsive usability.",
+    "One synthetic component/three observations does not establish general regenerative method or all original obligations."
+  ]
+}

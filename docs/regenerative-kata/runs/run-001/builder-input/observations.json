@@ -1,0 +1,8 @@
+{
+  "components": [{"id": "groundhog-day-wash", "name": "Groundhog Day Wash"}],
+  "observations": [
+    {"component_id": "groundhog-day-wash", "observed_at": "2030-02-02T12:00:00Z", "result": {"kind": "success", "http_status": 200}},
+    {"component_id": "groundhog-day-wash", "observed_at": "2030-02-02T12:15:00Z", "result": {"kind": "http_failure", "http_status": 502}},
+    {"component_id": "groundhog-day-wash", "observed_at": "2030-02-02T12:30:00Z", "result": {"kind": "success", "http_status": 200}}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "run-001-frozen-before-build",
+  "origin": "Independently authored expectations from agreed behavior; all input events synthetic",
+  "expected": [
+    {"file": "step-000.html", "state": "healthy", "color": "green", "timestamp": "2030-02-02T12:00:00Z"},
+    {"file": "step-001.html", "state": "impaired", "color": "red", "timestamp": "2030-02-02T12:15:00Z"},
+    {"file": "step-002.html", "state": "healthy", "color": "green", "timestamp": "2030-02-02T12:30:00Z"}
+  ]
+}

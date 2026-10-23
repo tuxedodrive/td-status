@@ -1,0 +1,20 @@
+{
+  "scope": "Static HTML semantics and explicit inline status color; not browser rendering",
+  "results": [
+    {
+      "snapshot": "step-000.html",
+      "outcome": "pass",
+      "expected_state": "healthy"
+    },
+    {
+      "snapshot": "step-001.html",
+      "outcome": "pass",
+      "expected_state": "impaired"
+    },
+    {
+      "snapshot": "step-002.html",
+      "outcome": "pass",
+      "expected_state": "healthy"
+    }
+  ]
+}

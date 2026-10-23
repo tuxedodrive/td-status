@@ -1,0 +1,6 @@
+{
+  "mutation": "Recovery snapshot data-state changed to impaired; original output unchanged",
+  "evaluator_exit_code": 1,
+  "rejected": true,
+  "diagnostic": "AssertionError: step-002.html: state"
+}

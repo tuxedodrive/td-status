@@ -22,9 +22,9 @@ The immediate exercise is a page-only experience driven by fixed observations. I
 
 Downtime duration and incident logging are possible future details, not requirements now. No debounce, sampling, or freshness threshold is selected. The broader uncertainty obligation remains; its policy is an open question, not an invented timing rule.
 
-### Candidate evaluation inputs and provenance
+### Historical research background and provenance
 
-The baseline may use sampled historical April 5–11 observations for the subset corresponding to the current ten services. Historical samples must be distinguished from synthetic or interpolated fixture events: the user permits making up events and interpolating gaps for the exercise. Such events must not be presented as recorded production evidence.
+Superseded as a fixture plan by the later explicit choice below: the first kata is fully synthetic. Earlier research considered April 5–11 observations for the current ten-service subset. Real record shape and cadence may inform synthetic data, but historical records are background, not fixture truth; no history harvesting is needed.
 
 - Historical source pin: [a126bb25eeb7add750d0f3bf1a3174527347484c](https://github.com/tuxedodrive/td-status/commit/a126bb25eeb7add750d0f3bf1a3174527347484c).
 - Production Application down record: [096191b954fe35f416793f8c0a76e196d0e65005](https://github.com/tuxedodrive/td-status/commit/096191b954fe35f416793f8c0a76e196d0e65005), April 8 at 16:30:37.239Z.
@@ -105,3 +105,13 @@ These examples leave sampling cadence, thresholds, UI components, and test harne
 - A periodic dependency-gap check may compare observed/configured dependencies with explicit registration and flag omissions for review. Nightly timing, automatic registration, scan technique, and implementation are not decided.
 - Investigate how the status app itself is monitored without creating a circular dependency. No new watchdog architecture selected.
 - Reusable questions about contract placement, format, and lifecycle belong in td-meta discovery notes; this app's desired behavior belongs here. Keep regular Git checkpoints and distinguish checkpointed drafts from approved requirements and running tests.
+
+## Latest fixture decision — fully synthetic
+
+The user's later explicit choice is to use fully synthetic observations for the first kata, with real record shape and cadence as reference only. No adherence to historical events is required. [synthetic-timeline.json](synthetic-timeline.json) is a draft fixture and independent expected-outcome oracle for the concrete agreed scenario.
+
+The fixture's Groundhog Day namespace, single component, arbitrary date, 15-minute spacing, field names, and explanatory text are proposed authoring choices, not user-specified values or operational thresholds. Groundhog Day remains the proposed namespace; staging names were also offered. The agreed outcomes are green, then red with a clear 502 failure description and timestamp, then green on fresh success. Numeric code display remains optional.
+
+The minimal proposed input boundary is an ordered list of fixed observations: component identifier, observation timestamp, and success or HTTP failure result. The fixture separates those inputs from expected visible outcomes. Later clean builders receive the contract and input boundary/inputs, not the old implementation; evaluation expectations remain independently specified. Fixture version and Git revision supply provenance. No parser, framework, live monitoring, or generated app is introduced.
+
+All original uncertainty/freshness, proportionate-impact, help, and responsive-usability obligations remain recorded above. This small fixture does not claim to evaluate them or settle their open policies.

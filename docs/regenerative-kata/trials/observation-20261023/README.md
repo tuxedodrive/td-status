@@ -40,3 +40,7 @@ For an early stop, inspect the two recorded commands against their `/proc/<pid>/
 ## Public access pending
 
 No public exposure is approved at this checkpoint. A separate temporary HTTPS route proposal is pending; no tunnel, DNS, firewall or persistent access change has been made. Running collection remains independent of that decision.
+
+## Terminal checkpoint — 2026-10-25
+
+The private 48-hour interval and automatic shutdown are now verified. Both trial processes are absent; board and local sink are closed. See [terminal assessment](TERMINAL-ASSESSMENT.md) and [reconciled evidence](evidence/terminal-reports.json). The instructions above describe the preserved historical deployment, not a currently running board. No public exposure was approved. Comparative correctness and full production replacement readiness remain inconclusive.

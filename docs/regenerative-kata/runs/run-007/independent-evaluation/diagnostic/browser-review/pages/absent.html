@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Groundhog Day synthetic status</title>
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:1rem;line-height:1.45;color:#1a1a1a;background:#f6f7f9;overflow-wrap:anywhere;word-break:normal}
+.wrap{max-width:52rem;margin:0 auto;padding:0.75rem 1rem 2rem}
+header.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.5rem 1rem;padding:0.25rem 0 0.75rem;border-bottom:1px solid #d5d9e0}
+h1{font-size:1.35rem;margin:0;line-height:1.25;flex:1 1 12rem;min-width:0}
+#support-link{display:inline-block;flex:0 0 auto;max-width:100%;padding:0.55rem 0.95rem;border-radius:0.4rem;background:#0b4f9c;color:#fff;font-weight:700;text-decoration:none}
+#support-link:hover,#support-link:focus{background:#083b75;text-decoration:underline}
+#support-link:focus-visible{outline:3px solid #f2b705;outline-offset:2px}
+.help-note{flex:1 1 100%;margin:0;font-size:0.9rem;color:#3c4350}
+#banner{margin:0.75rem 0 0;padding:0.6rem 0.8rem;border-radius:0.4rem;background:#fff4cc;border:2px solid #b07d00;color:#3d2c00;font-weight:600}
+#banner[hidden]{display:none}
+#summary{margin:0.75rem 0 0.25rem;font-size:1.05rem;font-weight:600}
+.meta{margin:0.25rem 0 0.75rem;font-size:0.9rem;color:#3c4350}
+h2{font-size:1.1rem;margin:1.25rem 0 0.5rem}
+ul.cards,ul.incidents{list-style:none;margin:0;padding:0}
+.card{background:#fff;border:1px solid #d5d9e0;border-left:0.4rem solid #8a8f98;border-radius:0.4rem;padding:0.7rem 0.85rem;margin:0 0 0.6rem}
+.card.state-healthy{border-left-color:#1b7f3b}
+.card.state-impaired{border-left-color:#b3261e}
+.card.state-unknown{border-left-color:#c98a00}
+.card-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.35rem 0.75rem}
+.card h3{font-size:1.02rem;margin:0;min-width:0}
+.state{display:inline-block;padding:0.15rem 0.6rem;border-radius:1rem;font-weight:700;font-size:0.9rem;background:#8a8f98;color:#fff}
+.state-healthy .state{background:#1b7f3b;color:#fff}
+.state-impaired .state{background:#b3261e;color:#fff}
+.state-unknown .state{background:#f2b705;color:#1a1a1a}
+.card p{margin:0.35rem 0 0}
+.description{font-weight:500}
+.impact,.observed,.limits,.provider-note{font-size:0.92rem;color:#2f3540}
+.provider-note{font-style:italic}
+.incident{background:#fff;border:1px solid #d5d9e0;border-radius:0.4rem;padding:0.55rem 0.8rem;margin:0 0 0.5rem;font-size:0.95rem}
+.incident-description{display:block;color:#2f3540;margin-top:0.2rem}
+footer{margin-top:1.5rem;font-size:0.85rem;color:#3c4350}
+noscript p,.snapshot-note{font-size:0.9rem;color:#3c4350;margin:0.25rem 0}
+@media (min-width:44rem){h1{font-size:1.6rem}.wrap{padding-top:1.25rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+<h1 id="page-title">Groundhog Day synthetic status</h1>
+<a id="support-link" href="https://support.example.invalid/help">Get help</a>
+<p class="help-note">Need help or want to report a problem? Use the help link.</p>
+</header>
+<main>
+<div id="banner" role="alert" hidden></div>
+<p id="summary" role="status" aria-live="polite">Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.</p>
+<p class="meta" id="publication">Published <time datetime="2026-11-20T16:58:00Z">2026-11-20 16:58:00 UTC</time>.</p>
+<noscript><p><strong>Snapshot only.</strong> These statuses are past observations from the time shown, not live health. This page cannot tell how old they are without JavaScript; reload or check the times shown.</p></noscript>
+<p class="snapshot-note" id="snapshot-note">Statuses are snapshot observations from the times shown, not live health.</p>
+<h2>Checks</h2>
+<ul id="services" class="cards"><li class="card state-unknown" data-service-id="gd-application" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Application</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> Core platform health endpoint</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p></li><li class="card state-unknown" data-service-id="gd-edge" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Edge</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> Core platform health endpoint</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p></li><li class="card state-unknown" data-service-id="gd-payments" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Payments</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-email" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Email</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-sms" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day SMS</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-authentication" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Authentication</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-weather" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Weather</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-pollen" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Pollen</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-hosting" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Hosting</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li><li class="card state-unknown" data-service-id="gd-secrets" data-state="unknown"><div class="card-head"><h3 class="name">Groundhog Day Secrets</h3><span class="state">Unknown</span></div><p class="description">No check result has been recorded for this service yet, so its current state is unknown.</p><p class="impact"><strong>Affects:</strong> This dependency only; other wash operations may be unaffected</p><p class="observed">Snapshot observation: no check recorded yet.</p><p class="limits">Evidence older than 60 seconds is shown as Unknown.</p><p class="provider-note">Reachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health.</p></li></ul>
+<h2>Incident history</h2>
+<div id="incidents"><ul id="incident-list" class="incidents"><li class="incident none">No incidents recorded.</li></ul></div>
+</main>
+<footer><p>This page reports automated check results only. Times are shown in UTC.</p></footer>
+</div>
+<script id="status-data" type="application/json">{"generated_at":"2026-11-20T16:58:00Z","title":"Groundhog Day synthetic status","support_url":"https://support.example.invalid/help","refresh_seconds":5,"refresh_timeout_seconds":3,"services":[{"id":"gd-application","name":"Groundhog Day Application","kind":"first_party","impact":"Core platform health endpoint","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-edge","name":"Groundhog Day Edge","kind":"first_party","impact":"Core platform health endpoint","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-payments","name":"Groundhog Day Payments","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-email","name":"Groundhog Day Email","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-sms","name":"Groundhog Day SMS","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-authentication","name":"Groundhog Day Authentication","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-weather","name":"Groundhog Day Weather","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-pollen","name":"Groundhog Day Pollen","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-hosting","name":"Groundhog Day Hosting","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]},{"id":"gd-secrets","name":"Groundhog Day Secrets","kind":"provider_reachability","impact":"This dependency only; other wash operations may be unaffected","state":"unknown","observed_at":null,"http_status":null,"description":"No check result has been recorded for this service yet, so its current state is unknown.","stale_after_seconds":60,"evidence_state":null,"evidence_description":null,"elapsed_ms":null,"history":[]}],"incidents":[],"notification_events":[]}</script>
+<script>Date.now=()=>Date.parse("2026-11-20T16:58:00Z")+0;
+(function () {
+  'use strict';
+  var LABEL = {healthy: 'Healthy', impaired: 'Impaired', unknown: 'Unknown'};
+  var DEFAULT_REFRESH = 5, DEFAULT_TIMEOUT = 3, FALLBACK_PUBLICATION_LIMIT = 300;
+  var PROVIDER_NOTE = 'Reachability check only: a Healthy result means the provider answered as expected. ' +
+    'It does not prove account credentials or end-to-end business health.';
+  var model = null, cards = [], busy = false, pollTimer = null, pollEvery = null;
+
+  function parseTime(s) { return typeof s === 'string' ? Date.parse(s) : NaN; }
+  function posNum(v, d) { var n = Number(v); return (typeof v === 'number' && isFinite(n) && n > 0) ? n : d; }
+  function node(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) { n.className = cls; }
+    if (text !== undefined && text !== null) { n.textContent = String(text); }
+    return n;
+  }
+  function clear(n) { while (n.firstChild) { n.removeChild(n.firstChild); } }
+  function fmtTime(s) {
+    var t = parseTime(s);
+    if (isNaN(t)) { return String(s); }
+    return new Date(t).toISOString().replace('T', ' ').replace(/(\.\d+)?Z$/, ' UTC');
+  }
+  function timeNode(s) { var t = node('time', null, fmtTime(s)); t.setAttribute('datetime', String(s)); return t; }
+  function fmtAge(ms) {
+    var s = Math.max(0, Math.floor(ms / 1000));
+    if (s < 90) { return s + ' s ago'; }
+    var m = Math.floor(s / 60); if (m < 90) { return m + ' min ago'; }
+    var h = Math.floor(m / 60); if (h < 48) { return h + ' h ago'; }
+    return Math.floor(h / 24) + ' days ago';
+  }
+  function fmtSeconds(v) { return v === 1 ? '1 second' : String(v) + ' seconds'; }
+  function safeSupport(u) { return typeof u === 'string' && /^(https:\/\/|mailto:)/i.test(u) && !/[\s\u0000-\u001f]/.test(u); }
+
+  function validModel(m) {
+    if (!m || typeof m !== 'object' || Array.isArray(m)) { return false; }
+    if (isNaN(parseTime(m.generated_at))) { return false; }
+    if (!Array.isArray(m.services)) { return false; }
+    for (var i = 0; i < m.services.length; i++) {
+      var s = m.services[i];
+      if (!s || typeof s.id !== 'string' || typeof s.name !== 'string') { return false; }
+      if (!LABEL.hasOwnProperty(s.state)) { return false; }
+      if (!(typeof s.stale_after_seconds === 'number' && s.stale_after_seconds > 0)) { return false; }
+      if (s.observed_at !== null && s.observed_at !== undefined && isNaN(parseTime(s.observed_at))) { return false; }
+    }
+    if (m.incidents !== undefined && !Array.isArray(m.incidents)) { return false; }
+    return true;
+  }
+
+  // Freshness is re-assessed with the browser's own clock; nothing here can
+  // make evidence younger than its observation timestamp.
+  function assess(s, now) {
+    if (!s.observed_at) { return {state: 'unknown', why: 'none'}; }
+    var t = parseTime(s.observed_at), limit = Number(s.stale_after_seconds) * 1000;
+    if (isNaN(t) || !(limit > 0)) { return {state: 'unknown', why: 'none'}; }
+    if (now - t > limit) { return {state: 'unknown', why: 'stale'}; }
+    if (s.state === 'unknown') { return {state: 'unknown', why: 'stale'}; }
+    var ev = s.evidence_state || s.state;
+    if (ev === 'healthy' || ev === 'impaired') { return {state: ev, why: 'fresh'}; }
+    return {state: 'unknown', why: 'none'};
+  }
+  function describe(s, a) {
+    if (a.why === 'none') { return 'No check result has been recorded for this service yet, so its current state is unknown.'; }
+    var ev = s.evidence_state;
+    var reason = String(s.evidence_description || s.description || '').replace(/\.$/, '');
+    if (a.why === 'stale') {
+      var outcome = ev === 'healthy' ? 'succeeded' : (ev === 'impaired' ? 'failed (' + reason + ')' : 'is not current');
+      return 'No fresh check result: the last check ' + outcome + ', but it is older than the ' +
+        fmtSeconds(s.stale_after_seconds) + ' freshness limit, so the current state is unknown.';
+    }
+    return String(s.evidence_description || s.description || '');
+  }
+
+  function buildCard(s) {
+    var li = node('li', 'card');
+    li.setAttribute('data-service-id', s.id);
+    var head = node('div', 'card-head');
+    head.appendChild(node('h3', 'name', s.name));
+    var badge = node('span', 'state');
+    head.appendChild(badge);
+    li.appendChild(head);
+    var desc = node('p', 'description');
+    li.appendChild(desc);
+    var impact = node('p', 'impact');
+    impact.appendChild(node('strong', null, 'Affects:'));
+    impact.appendChild(document.createTextNode(' ' + String(s.impact || '')));
+    li.appendChild(impact);
+    var obs = node('p', 'observed');
+    var age = null;
+    if (s.observed_at) {
+      obs.appendChild(document.createTextNode('Last checked '));
+      obs.appendChild(timeNode(s.observed_at));
+      age = node('span', 'age');
+      obs.appendChild(document.createTextNode(' '));
+      obs.appendChild(age);
+      if (s.http_status !== null && s.http_status !== undefined) {
+        obs.appendChild(document.createTextNode(' · HTTP ' + String(s.http_status)));
+      }
+    } else {
+      obs.textContent = 'No check recorded yet.';
+    }
+    li.appendChild(obs);
+    li.appendChild(node('p', 'limits', 'Evidence older than ' + fmtSeconds(s.stale_after_seconds) + ' is shown as Unknown.'));
+    if (s.kind === 'provider_reachability') { li.appendChild(node('p', 'provider-note', PROVIDER_NOTE)); }
+    return {svc: s, li: li, badge: badge, desc: desc, age: age, last: null};
+  }
+
+  function renderIncidents(m) {
+    var box = document.getElementById('incidents');
+    clear(box);
+    var ul = node('ul', 'incidents');
+    ul.id = 'incident-list';
+    var list = Array.isArray(m.incidents) ? m.incidents : [];
+    var names = {};
+    m.services.forEach(function (s) { names[s.id] = s.name; });
+    var shown = 0;
+    list.forEach(function (inc) {
+      if (!inc || typeof inc.service_id !== 'string' || !names.hasOwnProperty(inc.service_id)) { return; }
+      if (isNaN(parseTime(inc.opened_at))) { return; }
+      var li = node('li', 'incident');
+      li.setAttribute('data-service-id', inc.service_id);
+      li.appendChild(node('strong', null, names[inc.service_id]));
+      li.appendChild(document.createTextNode(': opened '));
+      li.appendChild(timeNode(inc.opened_at));
+      li.appendChild(document.createTextNode(' · '));
+      if (inc.resolved_at && !isNaN(parseTime(inc.resolved_at))) {
+        li.appendChild(document.createTextNode('Resolved '));
+        li.appendChild(timeNode(inc.resolved_at));
+      } else {
+        li.appendChild(document.createTextNode('Open'));
+      }
+      li.appendChild(node('span', 'incident-description', inc.description || ''));
+      ul.appendChild(li);
+      shown++;
+    });
+    if (!shown) { ul.appendChild(node('li', 'incident none', 'No incidents recorded.')); }
+    box.appendChild(ul);
+  }
+
+  function render(m) {
+    model = m;
+    if (typeof m.title === 'string' && m.title) {
+      document.getElementById('page-title').textContent = m.title;
+      document.title = m.title;
+    }
+    var link = document.getElementById('support-link');
+    if (safeSupport(m.support_url)) { link.setAttribute('href', m.support_url); }
+    var list = document.getElementById('services');
+    clear(list);
+    cards = m.services.map(buildCard);
+    cards.forEach(function (c) { list.appendChild(c.li); });
+    renderIncidents(m);
+    var pub = document.getElementById('publication');
+    clear(pub);
+    pub.appendChild(document.createTextNode('Published '));
+    pub.appendChild(timeNode(m.generated_at));
+    pub.appendChild(document.createTextNode('.'));
+    tick();
+  }
+
+  function publicationLimit(m) {
+    var lim = Infinity;
+    m.services.forEach(function (s) { var v = Number(s.stale_after_seconds); if (v > 0 && v < lim) { lim = v; } });
+    return (lim === Infinity ? FALLBACK_PUBLICATION_LIMIT : lim) * 1000;
+  }
+
+  function tick() {
+    if (!model) { return; }
+    var now = Date.now();
+    var counts = {healthy: 0, impaired: 0, unknown: 0};
+    cards.forEach(function (c) {
+      var a = assess(c.svc, now);
+      counts[a.state]++;
+      var key = a.state + '|' + a.why;
+      if (c.last !== key) {
+        c.last = key;
+        c.li.className = 'card state-' + a.state;
+        c.li.setAttribute('data-state', a.state);
+        c.badge.textContent = LABEL[a.state];
+        c.desc.textContent = describe(c.svc, a);
+      }
+      if (c.age) { c.age.textContent = '(' + fmtAge(now - parseTime(c.svc.observed_at)) + ')'; }
+    });
+    var total = cards.length, text;
+    if (!total) { text = 'No checks are listed.'; }
+    else if (counts.healthy === total) { text = 'All ' + total + ' listed checks are healthy.'; }
+    else {
+      var parts = [];
+      if (counts.impaired) { parts.push(counts.impaired + ' impaired'); }
+      if (counts.unknown) { parts.push(counts.unknown + ' unknown'); }
+      parts.push(counts.healthy + ' healthy');
+      text = 'Some listed checks are impaired or unknown: ' + parts.join(', ') + ', of ' + total +
+        ' listed. Each check below says what it affects.';
+    }
+    var summary = document.getElementById('summary');
+    if (summary.textContent !== text) { summary.textContent = text; }
+
+    var banner = document.getElementById('banner');
+    var gen = parseTime(model.generated_at);
+    var genAge = now - gen;
+    if (isNaN(gen) || genAge > publicationLimit(model)) {
+      clear(banner);
+      banner.appendChild(document.createTextNode('This status snapshot may be out of date: it was published '));
+      if (isNaN(gen)) { banner.appendChild(document.createTextNode('at an unknown time')); }
+      else {
+        banner.appendChild(timeNode(model.generated_at));
+        banner.appendChild(document.createTextNode(' (' + fmtAge(genAge) + ')'));
+      }
+      banner.appendChild(document.createTextNode('. Results may have changed since then.'));
+      banner.hidden = false;
+    } else if (!banner.hidden) {
+      banner.hidden = true;
+      clear(banner);
+    }
+  }
+
+  function canPoll() { return location.protocol === 'http:' || location.protocol === 'https:'; }
+
+  function accept(data) {
+    if (!validModel(data)) { return; }
+    // A refresh can never move publication time backwards.
+    if (model && parseTime(data.generated_at) < parseTime(model.generated_at)) { return; }
+    render(data);
+    schedule();
+  }
+
+  function poll() {
+    if (busy) { return; }
+    busy = true;
+    var done = false, ctrl = null, timer = null;
+    try { ctrl = (typeof AbortController === 'function') ? new AbortController() : null; } catch (err) { ctrl = null; }
+    function finish() {
+      if (done) { return; }
+      done = true;
+      if (timer !== null) { clearTimeout(timer); }
+      busy = false;
+    }
+    timer = setTimeout(function () {
+      if (ctrl) { try { ctrl.abort(); } catch (err) { /* ignore */ } }
+      finish();
+    }, posNum(model && model.refresh_timeout_seconds, DEFAULT_TIMEOUT) * 1000);
+    var request;
+    try {
+      var opts = {cache: 'no-store', credentials: 'same-origin'};
+      if (ctrl) { opts.signal = ctrl.signal; }
+      request = fetch('status.json', opts);
+    } catch (err) { finish(); return; }
+    request.then(function (r) {
+      if (!r.ok) { throw new Error('refresh failed'); }
+      return r.json();
+    }).then(function (data) {
+      if (done) { return; }
+      finish();
+      accept(data);
+    }).catch(function () { /* old evidence keeps ageing on its own deadline */ })
+      .then(finish, finish);
+  }
+
+  function schedule() {
+    if (!canPoll()) { return; }
+    var every = posNum(model && model.refresh_seconds, DEFAULT_REFRESH);
+    if (pollEvery === every && pollTimer !== null) { return; }
+    if (pollTimer !== null) { clearInterval(pollTimer); }
+    pollEvery = every;
+    pollTimer = setInterval(poll, every * 1000);
+  }
+
+  function start() {
+    var initial = null;
+    try { initial = JSON.parse(document.getElementById('status-data').textContent); } catch (err) { initial = null; }
+    if (validModel(initial)) { render(initial); }
+    var note = document.getElementById('snapshot-note');
+    if (note) {
+      note.textContent = canPoll()
+        ? 'This page re-checks the age of each result every second and fetches newer results automatically. Results older than their freshness limit are shown as Unknown.'
+        : 'Snapshot file: this copy does not fetch newer results, but it still re-checks the age of each result every second.';
+    }
+    setInterval(tick, 500);
+    if (canPoll()) { schedule(); poll(); }
+  }
+
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', start); } else { start(); }
+})();
+</script>
+</body>
+<script>window.addEventListener('load',()=>{const cards=[...document.querySelectorAll('[data-service-id][data-state]')];const a=document.querySelector('#support-link');const result={width:innerWidth,height:innerHeight,documentWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&(r.left< -1||r.right>innerWidth+1)}).map(e=>e.tagName),services:cards.map(c=>{const s=c.querySelector('.state'),r=c.getBoundingClientRect();return {id:c.dataset.serviceId,state:c.dataset.state,text:s.innerText,color:getComputedStyle(s).color,background:getComputedStyle(s).backgroundColor,fontSize:getComputedStyle(s).fontSize,width:r.width,description:c.innerText}}),summary:document.querySelector('#summary').innerText,support:{href:a.href,text:a.innerText,top:a.getBoundingClientRect().top,bottom:a.getBoundingClientRect().bottom,display:getComputedStyle(a).display,fontSize:getComputedStyle(a).fontSize},agingVisible:/out of date/i.test(document.querySelector('#banner').innerText),agingText:document.querySelector('#banner').innerText};const e=document.createElement('script');e.id='review-proof';e.type='application/json';e.textContent=JSON.stringify(result);document.body.append(e);});</script></html>

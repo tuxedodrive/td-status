@@ -1,0 +1,52 @@
+obligations 45 (active 44, retired 1); check units 53 passing 0; active with a passing check 0/44
+
+obligation             status   tagged passing  title
+status.service.I1      active        0       0  Standard library and browser-native code only  <-- NO PASSING CHECK
+status.service.I2      active        1       0  An explicit registry monitored, a static public site published  <-- NO PASSING CHECK
+status.service.I3      active        2       0  The published site outlives the monitor, database and dependencies  <-- NO PASSING CHECK
+status.service.I4      active        1       0  Public output exposes nothing private  <-- NO PASSING CHECK
+status.service.I5      active        0       0  No automatic external messaging  <-- NO PASSING CHECK
+status.service.I6      active        1       0  collect observes every service once and publishes atomically  <-- NO PASSING CHECK
+status.service.I7      active        3       0  A completed cycle exits 0; invalid input exits nonzero  <-- NO PASSING CHECK
+status.service.I8      active        6       0  Outcome classification  <-- NO PASSING CHECK
+status.service.I9      active        0       0  Persisted observation fields, never bodies or secrets  <-- NO PASSING CHECK
+status.service.I10     active        3       0  export renders without probing  <-- NO PASSING CHECK
+status.service.I11     active        2       0  Absent or stale evidence is unknown  <-- NO PASSING CHECK
+status.service.I12     active        2       0  Recovery on the next fresh success, no debounce  <-- NO PASSING CHECK
+status.service.I13     active        1       0  run loops collect, bounded or until Ctrl-C  <-- NO PASSING CHECK
+status.service.I14     active        0       0  Interval, timeout and staleness are explicit operator settings  <-- NO PASSING CHECK
+status.service.I15     active        0       0  Config file format  <-- NO PASSING CHECK
+status.service.I16     active        1       0  Config validation  <-- NO PASSING CHECK
+status.service.I17     active        0       0  Config and model strings are untrusted  <-- NO PASSING CHECK
+status.service.I18     active        3       0  Durable observations and transition incidents  <-- NO PASSING CHECK
+status.service.I19     active        3       0  History survives restart; unknown never resolves an incident  <-- NO PASSING CHECK
+status.service.I20     active        1       0  Removing a service removes it from public output  <-- NO PASSING CHECK
+status.service.I21     active        0       0  Modest, bounded history  <-- NO PASSING CHECK
+status.service.I22     active        1       0  Self-contained public files  <-- NO PASSING CHECK
+status.service.I23     active        3       0  Public status.json format  <-- NO PASSING CHECK
+status.service.I24     active        5       0  The page shows state, time, impact, limits and history  <-- NO PASSING CHECK
+status.service.I25     active        1       0  Impact is scoped, never "everything is down"  <-- NO PASSING CHECK
+status.service.I26     active        0       0  Provider reachability is not business health  <-- NO PASSING CHECK
+status.service.I27     active        0       0  No promises of staff action or recovery time  <-- NO PASSING CHECK
+status.service.I28     active        5       0  Browser test interface  <-- NO PASSING CHECK
+status.service.I29     active        3       0  The browser re-assesses freshness itself  <-- NO PASSING CHECK
+status.service.I30     active        0       0  Without JavaScript the page is a labelled snapshot  <-- NO PASSING CHECK
+status.service.I31     active        3       0  Readable, accessible, responsive, no horizontal overflow  <-- NO PASSING CHECK
+status.service.I32     active        2       0  Support is a real configured destination  <-- NO PASSING CHECK
+status.service.I33     active        1       0  Support is prominent in the initial viewport  <-- NO PASSING CHECK
+status.service.I34     active        0       0  Synthetic Groundhog Day examples on loopback  <-- NO PASSING CHECK
+status.service.I35     active        0       0  Operations instructions  <-- NO PASSING CHECK
+status.service.I36     active        0       0  Readiness notes do not claim it is live  <-- NO PASSING CHECK
+status.service.I37     active        0       0  A loopback synthetic dependency and sink demo  <-- NO PASSING CHECK
+status.service.I38     retired       0       0  Pending notifications are posted after each collect and monitor cycle
+status.service.I39     active        6       0  One durable outbox event per incident transition  <-- NO PASSING CHECK
+status.service.I40     active        8       0  deliver is a separate, bounded, at-least-once worker  <-- NO PASSING CHECK
+status.service.I41     active        3       0  Collection and publication never wait on delivery  <-- NO PASSING CHECK
+status.service.I42     active        1       0  Notification payloads are safe  <-- NO PASSING CHECK
+status.service.I43     active        3       0  An open page polls and recovers without reload  <-- NO PASSING CHECK
+status.service.I44     active        3       0  A failed refresh never renews evidence  <-- NO PASSING CHECK
+status.service.I45     active        1       0  Each poll has a finite, abortable deadline  <-- NO PASSING CHECK
+
+active obligations with no tagged check: status.service.I1, status.service.I5, status.service.I9, status.service.I14, status.service.I15, status.service.I17, status.service.I21, status.service.I26, status.service.I27, status.service.I30, status.service.I34, status.service.I35, status.service.I36, status.service.I37
+active obligations tagged but not passing: status.service.I2, status.service.I3, status.service.I4, status.service.I6, status.service.I7, status.service.I8, status.service.I10, status.service.I11, status.service.I12, status.service.I13, status.service.I16, status.service.I18, status.service.I19, status.service.I20, status.service.I22, status.service.I23, status.service.I24, status.service.I25, status.service.I28, status.service.I29, status.service.I31, status.service.I32, status.service.I33, status.service.I39, status.service.I40, status.service.I41, status.service.I42, status.service.I43, status.service.I44, status.service.I45
+unknown tags: none

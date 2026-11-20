@@ -1,0 +1,223 @@
+- id: static-public-export
+  date: "2026-10-23"
+  decision: The public site is a static export of self-contained `index.html` plus `status.json`, servable by any static file server and independent of the monitor, database and monitored dependencies.
+  driver: A status site must remain loadable, and honest about evidence age, when the monitor or what it monitors is down.
+  alternatives:
+    - option: Serve the page from the monitor process
+      rejected: The monitor and its database may be offline while the site must still load (runs 002–006 contract, "Goal and failure boundary").
+    - option: Load page assets from monitored platforms or external hosts
+      rejected: Assets and page requests must not depend on monitored services.
+  evidence: Run 002, 003 and 006 operations checks served the export over loopback with HTTP 200 while monitor and dependencies were stopped.
+  invariant: status.service.I2, status.service.I3, status.service.I22
+  approved_by: pending JPB
+  conditions:
+    - text: The public site needs no server-side logic
+  expires: When the public site needs per-request server behaviour
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 002 — next hypothesis'", "td-status runs/run-006/README.md"]
+
+- id: sqlite-ledger
+  date: "2026-10-23"
+  decision: Observations, incidents and the notification outbox live in one private SQLite database, which is also the durable queue shared by the collector and the delivery worker.
+  driver: Durable observation and transition history was selected as an essential replacement capability; a delivery worker needs a durable queue.
+  alternatives:
+    - option: The incumbent's commit-per-check storage (an incumbent storage mechanism, not a database transaction granularity)
+      rejected: The journal records it as an incidental incumbent choice, not an obligation (run 002).
+    - option: In-process memory state
+      rejected: History must survive restarts, and unbounded process memory is forbidden.
+  evidence: Runs 002–006 passed restart/history, backup/restore and outbox retry checks with SQLite.
+  invariant: status.service.I18, status.service.I41
+  approved_by: pending JPB
+  conditions:
+    - text: One host runs the collector and the delivery worker
+  expires: When collector and worker run on different hosts
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 002 — next hypothesis'"]
+
+- id: no-debounce
+  date: "2026-10-23"
+  decision: One fresh failure marks a service impaired and the next fresh success marks it healthy; there is no debounce.
+  driver: The agreed first-experiment sequence is healthy/green → received 502/red → fresh success/green.
+  alternatives:
+    - option: The incumbent's five-failure debounce
+      rejected: The journal records it as an incidental incumbent choice deliberately not copied (run 002, run 003 readiness).
+  evidence: Every functional evaluator since run 002 drives success → 502 → success and checks the transitions.
+  invariant: status.service.I12
+  approved_by: pending JPB
+  conditions:
+    - text: The agreed green → red → green sequence still describes the desired behaviour
+  expires: If flapping checks make single-failure alerts too noisy in production review
+  source: ["td-meta#176 issue body, 'First experiment'", "td-meta docs/research/regenerative-process-journal.md, 'Run 002 — next hypothesis'"]
+  notes: The journal calls this the user's desired contract; it is still left pending JPB here because no signed record exists.
+
+- id: stale-evidence-is-unknown
+  date: "2026-10-23"
+  decision: A service with no observations, or whose latest observation is older than its `stale_after_seconds`, is shown unknown with its last observation and timestamp retained; the browser applies the same rule using its own clock and never resets evidence age on reload or failed refresh.
+  driver: The original uncertainty/freshness obligation; old evidence must not be presented as current health.
+  alternatives:
+    - option: Keep showing the last state until a new observation arrives
+      rejected: Stale green would claim current health the evidence does not support.
+    - option: Treat an old publication and old observations as one signal
+      rejected: Run 002's first browser oracle did that and failed its own aged-export case; the corrected oracle requires a publication-age banner for an aged publication and unknown state for stale observations.
+  evidence: Run 002 browser v1 failure and v2 correction (journal, "Run 002 results and evaluator corrections").
+  invariant: status.service.I11, status.service.I29, status.service.I44
+  approved_by: pending JPB
+  conditions:
+    - text: Each service carries its own stale_after_seconds
+  expires: Never
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 002 results and evaluator corrections'"]
+
+- id: operator-selected-timing
+  date: "2026-10-23"
+  decision: Collection interval, per-service probe timeout and per-service staleness horizon are explicit operator-selected settings; no value here is a user-prescribed default; all values used in this experiment are synthetic test choices.
+  driver: No production cadence, timeout or freshness policy has been chosen.
+  alternatives:
+    - option: Build in the incumbent's values as defaults
+      rejected: Existing source supplies 5000 ms timeouts and 900-second cadence, but adopting them, and choosing a freshness horizon, is an activation decision, not a builder default.
+  evidence: The dormant production configuration draft deliberately carries null freshness to reject execution until a policy is chosen (td-meta#176 status; journal, "Independent artifact audit").
+  invariant: status.service.I14
+  approved_by: pending JPB
+  kind: known-gap
+  conditions:
+    - text: Production freshness policy is still unset
+  expires: When JPB approves production cadence, timeout and freshness values
+  source: ["td-meta#176 issue body, 'Readiness'", "td-meta docs/research/regenerative-process-journal.md, 'Independent artifact audit'"]
+
+- id: retention-policy-placeholder
+  date: "2026-10-23"
+  decision: Keep modest historical data for the experiment and no unbounded process-memory state; the retention period itself is an experiment placeholder.
+  driver: The retention policy is one of the remaining operator choices named in td-meta#176.
+  alternatives:
+    - option: Fix a retention period in the Contract
+      rejected: That would invent production policy nobody has chosen.
+  evidence: td-meta#176 lists freshness/retention policy among remaining choices.
+  invariant: status.service.I21
+  approved_by: pending JPB
+  kind: known-gap
+  conditions:
+    - text: No retention policy has been approved
+  expires: When JPB approves a retention policy
+  source: ["td-meta#176 issue body, 'Readiness'"]
+
+- id: delivery-separate-worker
+  date: "2026-10-23"
+  decision: Notification delivery is a separate `deliver` command that drains at most N pending outbox events per invocation; `collect` and `run` never POST or wait on a sink, and no write lock is held during network waiting.
+  driver: The independent audit reproduced run 003's in-line delivery holding back publication; three two-second deliveries kept the old healthy page visible ~6.114 s before it showed impairment.
+  alternatives:
+    - option: POST pending events after each collect and monitor cycle (run 003)
+      rejected: Sink latency extended publication cadence (~6.114 s delay); retired as status.service.I38.
+  evidence: Run 006 resilience checks with a two-second stalled sink published impairment in 0.094106 s and recovery in 0.083101 s, and delivered six queued events without loss.
+  invariant: status.service.I40, status.service.I41
+  approved_by: pending JPB
+  conditions:
+    - text: An operator loop, not an installed service, runs the worker
+  expires: When a supervised production worker is approved
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Independent artifact audit'", "td-status runs/run-006/README.md"]
+
+- id: at-least-once-delivery
+  date: "2026-10-23"
+  decision: Each opened/resolved incident transition creates exactly one durable outbox event with a stable id; `deliver` POSTs it as JSON to a generic `notification_url`; any 2xx marks it delivered; anything else leaves it pending; delivery is at least once and receivers deduplicate by id.
+  driver: Run 002 had no delivered alert transport; a durable feed is not notification parity, but real transports need approval.
+  alternatives:
+    - option: Integrate email or GitHub issue transport in this component
+      rejected: Needs credentials and an approved destination; a separate run 004 SMTP/GitHub adapter exists and is not integrated.
+  evidence: Run 003 and 006 alert checks — pending after sink 503, same id retried, no resend after 2xx, one distinct resolved event.
+  invariant: status.service.I39, status.service.I40
+  approved_by: pending JPB
+  conditions:
+    - text: The notification destination is a synthetic loopback sink
+  expires: When an approved real transport replaces the generic sink
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 003 hypothesis'"]
+
+- id: refresh-seconds-default
+  date: "2026-10-23"
+  decision: An open page polls relative `status.json` every `refresh_seconds`; when the config omits it, the value is 5 seconds.
+  driver: Run 002's open page never showed new observations.
+  alternatives:
+    - option: No polling; require manual reload
+      rejected: An open page would keep showing an outage after recovery.
+  evidence: Run 003 and 006 browser-live recovery cases.
+  invariant: status.service.I43
+  approved_by: pending JPB
+  conditions:
+    - text: The value is an explicitly documented proposed implementation choice, not a customer obligation
+  expires: When JPB approves a production refresh interval
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 003 hypothesis'"]
+
+- id: refresh-timeout-default
+  date: "2026-10-23"
+  decision: Each poll is cancelled after `refresh_timeout_seconds` via AbortController or equivalent; when the config omits it, the value is 3 seconds.
+  driver: The audit reproduced one unresolved fetch keeping the page busy; only one call ever occurred and the page stayed impaired while recovery was available.
+  alternatives:
+    - option: Refresh fetches without a deadline (run 003)
+      rejected: One unresolved request kept the busy flag set and prevented every later poll.
+  evidence: Run 006 hung-fetch case recorded two calls and ten healthy services at 3.5 s.
+  invariant: status.service.I45
+  approved_by: pending JPB
+  conditions:
+    - text: The value is a proposed implementation/demo choice, not a customer obligation
+  expires: When JPB approves a production refresh deadline
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Independent artifact audit'"]
+
+- id: hung-fetch-recovery-budget
+  date: "2026-10-23"
+  decision: With 1-second refresh and a 0.5-second deadline, a stalled first fetch followed by available recovery must show recovery within 4 seconds.
+  driver: An evaluation policy for the failure-boundary behaviour introduced after the run 003 hung-fetch finding.
+  alternatives: []
+  evidence: Run 006 recovered by 3.5 s of controlled browser time.
+  invariant: status.service.I45
+  approved_by: pending JPB
+  conditions:
+    - text: This is a synthetic test budget, not a production latency promise
+  expires: Never
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 006 independently evaluated'"]
+  notes: No alternative was recorded.
+
+- id: support-prominence
+  date: "2026-10-23"
+  decision: The configured support link sits inside the initial phone, square and tablet viewport, near the heading or persistently available, even when every check is healthy.
+  driver: Run 003 visual review found support only after ten service cards, far below the initial phone viewport.
+  alternatives:
+    - option: Support link anywhere on the page
+      rejected: Passed run 003's first link-exists oracle while failing easy-to-find help.
+  evidence: Evaluated at phone 390×844, square 720×720 and tablet 820×1180. Run 003 failing screenshot and assertion (help-visibility-v1); runs 003-v2 and 006 passed the initial-viewport assertion.
+  invariant: status.service.I33
+  approved_by: pending JPB
+  conditions:
+    - text: The three evaluation viewports stand in for ordinary devices
+  expires: When physical-device testing replaces viewport emulation
+  source: ["td-meta docs/research/regenerative-process-journal.md, 'Run 003 results and a real visual finding'"]
+
+- id: browser-test-interface
+  date: "2026-10-23"
+  decision: Service cards carry `data-service-id` and `data-state`, each has a `.state` element, support is `#support-link`, the scoped summary is `#summary`, the publication-age warning is `#banner`, and the safe model is `script#status-data[type=application/json]`.
+  driver: The frozen independent browser evaluator reads these hooks without importing application code.
+  alternatives:
+    - option: Prescribe a visual design for the browser checks to read
+      rejected: The contract says these hooks are test-interface choices, not a prescribed visual design.
+  evidence: Runs 003–006 browser evaluators.
+  invariant: status.service.I28
+  approved_by: pending JPB
+  conditions:
+    - text: These are test-interface choices, not a prescribed visual design
+  expires: When the evaluator's interface changes
+  source: ["runs 005/006 contract, 'Confirmed resilience clarifications'"]
+
+- id: production-activation-placeholders
+  date: "2026-11-20"
+  decision: Every production activation value in this experiment is a synthetic placeholder; none is product policy.
+  driver: td-meta#176 lists these as remaining choices after run 006.
+  alternatives:
+    - option: Encode the values found in existing source as policy
+      rejected: Existing source supplies probe routes/codes/keywords, 5000 ms timeouts, 900-second cadence, a support mailbox and the configured .dev host, but adopting them is an activation decision for JPB.
+  evidence: Placeholders in force are support_url https://support.example.invalid/help, loopback probe and sink URLs, and synthetic interval/timeout/freshness values chosen per test.
+  invariant: status.service.I14, status.service.I21, status.service.I36
+  approved_by: pending JPB
+  kind: known-gap
+  conditions:
+    - text: Freshness/retention policy is unset
+    - text: It is unresolved whether .com denotes a different canonical host from .dev
+    - text: SMTP server, From address and authentication are unset
+    - text: GitHub issue credential and destination, if that transport is selected, are unset
+    - text: Public hosting, TLS and DNS are not activated
+    - text: Process supervision, backups and cutover/rollback are not planned
+  expires: When JPB approves the activation configuration
+  source: ["td-meta#176 issue body, 'Readiness'"]

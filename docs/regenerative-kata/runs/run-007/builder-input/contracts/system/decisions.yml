@@ -1,0 +1,32 @@
+- id: stdlib-only
+  date: "2026-10-23"
+  decision: The component uses the Python 3 standard library plus browser-native HTML, CSS and JavaScript only, with no package installation, external services, authentication or deployment.
+  driver: td-meta#176 forbids a new framework, live probing or scheduling, production replacement and deployment for this spike, and the Priory experiment runs without global installs.
+  alternatives:
+    - option: Reproduce the incumbent workflow engine or framework
+      rejected: The journal (run 002) records the workflow engine as an incidental incumbent choice, not a requirement.
+    - option: Install third-party packages for HTTP, templating or storage
+      rejected: The experiment authorises no package installation on Priory.
+  evidence: Runs 001–006 built and ran with the standard library only.
+  invariant: status.service.I1
+  approved_by: pending JPB
+  conditions:
+    - text: The experiment stays a no-install spike on a shared host
+  expires: When an approved production build chooses its own toolchain
+  source: ["td-meta#176 issue body, 'First experiment'", "td-meta docs/research/regenerative-process-journal.md, 'Run 001' and 'Run 002 — next hypothesis'"]
+
+- id: synthetic-loopback-only
+  date: "2026-10-23"
+  decision: All example data is synthetic Groundhog Day; every test and demo endpoint is loopback; no real provider is contacted, no real message is sent and no credential is used.
+  driver: The user expanded the goal to replacement capability but authorised no real external integrations, credentials, access expansion or spending; synthetic safe dependency boundaries are to be used meanwhile.
+  alternatives:
+    - option: Probe the real status endpoints during evaluation
+      rejected: Real integrations need applicable approval that has not been given.
+  evidence: Every run 001–006 evaluator binds 127.0.0.1 and uses support.example.invalid.
+  invariant: status.service.I34
+  approved_by: pending JPB
+  conditions:
+    - text: No external integration, credential or spending has been approved for the kata
+  expires: When an activation review approves real endpoints or destinations
+  source: ["td-meta#176 issue body, 'Expanded completion criterion — user decision'", "td-meta docs/research/regenerative-process-journal.md, 'Human decision — expand to replacement capability'"]
+  notes: The Groundhog Day namespace itself was proposed, not user-specified operational policy (issue body, 'First experiment').

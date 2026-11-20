@@ -1,0 +1,53 @@
+{
+  "title": "Groundhog Day Wash status (synthetic example)",
+  "support_url": "https://support.example.invalid/help",
+  "notification_url": "http://127.0.0.1:8702/events",
+  "refresh_seconds": 5,
+  "refresh_timeout_seconds": 3,
+  "services": [
+    {
+      "id": "booking",
+      "name": "Online wash booking",
+      "url": "http://127.0.0.1:8701/booking",
+      "kind": "first_party",
+      "impact": "Booking a wash online; drive-up washes are not affected.",
+      "expected_codes": [200],
+      "keywords": ["wash booking ready"],
+      "timeout_seconds": 2,
+      "stale_after_seconds": 120
+    },
+    {
+      "id": "bays",
+      "name": "Bay controller",
+      "url": "http://127.0.0.1:8701/bays",
+      "kind": "first_party",
+      "impact": "Starting washes at the Gobbler's Knob site.",
+      "expected_codes": [200],
+      "keywords": ["bay controller ok"],
+      "timeout_seconds": 2,
+      "stale_after_seconds": 120
+    },
+    {
+      "id": "loyalty",
+      "name": "Loyalty points",
+      "url": "http://127.0.0.1:8701/loyalty",
+      "kind": "first_party",
+      "impact": "Earning and viewing loyalty points only; washes and payment are not affected.",
+      "expected_codes": [200],
+      "keywords": ["loyalty points online"],
+      "timeout_seconds": 2,
+      "stale_after_seconds": 120
+    },
+    {
+      "id": "payments",
+      "name": "Card payments provider",
+      "url": "http://127.0.0.1:8701/payments",
+      "kind": "provider_reachability",
+      "impact": "Paying by card online.",
+      "expected_codes": [401],
+      "keywords": [],
+      "timeout_seconds": 2,
+      "stale_after_seconds": 120
+    }
+  ]
+}

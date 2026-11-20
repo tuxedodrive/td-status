@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-jpb-workspace-tuxedodrive--worktrees-distill-rules-2/18a0b564-5663-4239-8a32-29f79e133fd2/scratchpad/mini-eval/independent-eval-20261120T170011Z/evaluation/browser.py", line 36, in <module>
+    assert float(s['fontSize'].removesuffix('px'))>=16 and s['width']>0,name+': text'  # proves[readable-text]: status.service.I31
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: healthy-phone: text

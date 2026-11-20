@@ -1,0 +1,2547 @@
+{
+  "browser": "Google Chrome 158.0.8127.37",
+  "route": "Local file copies; evaluator-only fixed Date.now and DOM probe; original output unchanged",
+  "results": [
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "healthy-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "healthy-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "healthy-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nImpaired\n\nReceived HTTP 502; expected 200.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "failed-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nImpaired\n\nReceived HTTP 502; expected 200.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "failed-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nImpaired\n\nReceived HTTP 502; expected 200.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:15 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "failed-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nImpaired\n\nReceived HTTP 502; expected 401.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "minor-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nImpaired\n\nReceived HTTP 502; expected 401.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "minor-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "impaired",
+          "text": "Impaired",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(179, 38, 30)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nImpaired\n\nReceived HTTP 502; expected 401.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 502\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:30 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 1 impaired, 9 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "minor-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "recovered-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "recovered-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Healthy",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(27, 127, 59)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "recovered-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "stale-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "stale-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (61 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "stale-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "This status snapshot may be out of date: it was published 2026-11-20 16:58:40 UTC (2 min ago). Results may have changed since then.",
+      "case": "client-aged-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "This status snapshot may be out of date: it was published 2026-11-20 16:58:40 UTC (2 min ago). Results may have changed since then.",
+      "case": "client-aged-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": true,
+      "agingText": "This status snapshot may be out of date: it was published 2026-11-20 16:58:40 UTC (2 min ago). Results may have changed since then.",
+      "case": "client-aged-tablet",
+      "outcome": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Application\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Email\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 358,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 22.59375,
+        "bottom": 63.375,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "absent-phone",
+      "outcome": "pass"
+    },
+    {
+      "width": 720,
+      "height": 720,
+      "documentWidth": 720,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Application\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Email\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 688,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "absent-square",
+      "outcome": "pass"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "documentWidth": 820,
+      "overflow": [],
+      "services": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Application\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Edge\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: Core platform health endpoint\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Payments\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Email\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day SMS\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Authentication\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Weather\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Pollen\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Hosting\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Unknown",
+          "color": "rgb(26, 26, 26)",
+          "background": "rgb(242, 183, 5)",
+          "fontSize": "14.4px",
+          "width": 788,
+          "description": "Groundhog Day Secrets\nUnknown\n\nNo check result has been recorded for this service yet, so its current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nNo check recorded yet.\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": {
+        "href": "https://support.example.invalid/help",
+        "text": "Get help",
+        "top": 24,
+        "bottom": 64.78125,
+        "display": "block",
+        "fontSize": "16px"
+      },
+      "agingVisible": false,
+      "agingText": "",
+      "case": "absent-tablet",
+      "outcome": "pass"
+    }
+  ]
+}

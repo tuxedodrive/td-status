@@ -1,0 +1,838 @@
+{
+  "obligations_total": 45,
+  "active": 44,
+  "retired": 1,
+  "active_with_passing_check": 0,
+  "active_tagged_but_no_passing_check": [
+    "status.service.I2",
+    "status.service.I3",
+    "status.service.I4",
+    "status.service.I6",
+    "status.service.I7",
+    "status.service.I8",
+    "status.service.I10",
+    "status.service.I11",
+    "status.service.I12",
+    "status.service.I13",
+    "status.service.I16",
+    "status.service.I18",
+    "status.service.I19",
+    "status.service.I20",
+    "status.service.I22",
+    "status.service.I23",
+    "status.service.I24",
+    "status.service.I25",
+    "status.service.I28",
+    "status.service.I29",
+    "status.service.I31",
+    "status.service.I32",
+    "status.service.I33",
+    "status.service.I39",
+    "status.service.I40",
+    "status.service.I41",
+    "status.service.I42",
+    "status.service.I43",
+    "status.service.I44",
+    "status.service.I45"
+  ],
+  "active_with_no_tagged_check": [
+    "status.service.I1",
+    "status.service.I5",
+    "status.service.I9",
+    "status.service.I14",
+    "status.service.I15",
+    "status.service.I17",
+    "status.service.I21",
+    "status.service.I26",
+    "status.service.I27",
+    "status.service.I30",
+    "status.service.I34",
+    "status.service.I35",
+    "status.service.I36",
+    "status.service.I37"
+  ],
+  "retired_obligations_with_tags": [],
+  "unknown_tags": [],
+  "check_units": 53,
+  "check_units_passing": 0,
+  "per_obligation": {
+    "status.service.I1": {
+      "title": "Standard library and browser-native code only",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I2": {
+      "title": "An explicit registry monitored, a static public site published",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:78 All ten explicit checks healthy, including expected 401 provider reachability"
+      ],
+      "passing": []
+    },
+    "status.service.I3": {
+      "title": "The published site outlives the monitor, database and dependencies",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:126 Published site still exists while all dependencies offline",
+        "operations.py:30 published_site_works_with_dependencies_and_monitor_stopped"
+      ],
+      "passing": []
+    },
+    "status.service.I4": {
+      "title": "Public output exposes nothing private",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:111 Public files omit private URL/body/traceback"
+      ],
+      "passing": []
+    },
+    "status.service.I5": {
+      "title": "No automatic external messaging",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I6": {
+      "title": "collect observes every service once and publishes atomically",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:78 All ten explicit checks healthy, including expected 401 provider reachability"
+      ],
+      "passing": []
+    },
+    "status.service.I7": {
+      "title": "A completed cycle exits 0; invalid input exits nonzero",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:108 Probe timeout is impaired without crashing cycle",
+        "evaluate.py:119 Duplicate registry rejected",
+        "evaluate.py:126 Published site still exists while all dependencies offline"
+      ],
+      "passing": []
+    },
+    "status.service.I8": {
+      "title": "Outcome classification",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:78 All ten explicit checks healthy, including expected 401 provider reachability",
+        "evaluate.py:82 Received 502 marks only affected component impaired",
+        "evaluate.py:84 Failure has code, description and observation timestamp",
+        "evaluate.py:105 Expected code with missing keyword is impaired",
+        "evaluate.py:108 Probe timeout is impaired without crashing cycle",
+        "evaluate.py:125 Stopped dependencies cannot masquerade as healthy"
+      ],
+      "passing": []
+    },
+    "status.service.I9": {
+      "title": "Persisted observation fields, never bodies or secrets",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I10": {
+      "title": "export renders without probing",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:76 Registered services without observations are unknown",
+        "evaluate.py:101 Aged successful evidence is unknown, not current healthy",
+        "operations.py:39 backup_restore_preserves_observations_and_incidents"
+      ],
+      "passing": []
+    },
+    "status.service.I11": {
+      "title": "Absent or stale evidence is unknown",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:76 Registered services without observations are unknown",
+        "evaluate.py:101 Aged successful evidence is unknown, not current healthy"
+      ],
+      "passing": []
+    },
+    "status.service.I12": {
+      "title": "Recovery on the next fresh success, no debounce",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:91 Fresh success recovers core while minor dependency stays scoped",
+        "evaluate.py:96 Full recovery restores healthy"
+      ],
+      "passing": []
+    },
+    "status.service.I13": {
+      "title": "run loops collect, bounded or until Ctrl-C",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:115 Bounded monitor loop collects and persists two cycles"
+      ],
+      "passing": []
+    },
+    "status.service.I14": {
+      "title": "Interval, timeout and staleness are explicit operator settings",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I15": {
+      "title": "Config file format",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I16": {
+      "title": "Config validation",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:119 Duplicate registry rejected"
+      ],
+      "passing": []
+    },
+    "status.service.I17": {
+      "title": "Config and model strings are untrusted",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I18": {
+      "title": "Durable observations and transition incidents",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:87 Repeated failure retains one open incident",
+        "evaluate.py:92 Incident resolves on recovery evidence",
+        "evaluate.py:98 Resolved incidents retained"
+      ],
+      "passing": []
+    },
+    "status.service.I19": {
+      "title": "History survives restart; unknown never resolves an incident",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:97 History survives separate process restarts",
+        "evaluate.py:98 Resolved incidents retained",
+        "operations.py:39 backup_restore_preserves_observations_and_incidents"
+      ],
+      "passing": []
+    },
+    "status.service.I20": {
+      "title": "Removing a service removes it from public output",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:122 Removed service absent from public registry and incidents"
+      ],
+      "passing": []
+    },
+    "status.service.I21": {
+      "title": "Modest, bounded history",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I22": {
+      "title": "Self-contained public files",
+      "status": "active",
+      "tagged": [
+        "operations.py:30 published_site_works_with_dependencies_and_monitor_stopped"
+      ],
+      "passing": []
+    },
+    "status.service.I23": {
+      "title": "Public status.json format",
+      "status": "active",
+      "tagged": [
+        "evaluate.py:84 Failure has code, description and observation timestamp",
+        "evaluate.py:97 History survives separate process restarts",
+        "evaluate.py:109 Provider meaning and scope remain explicit"
+      ],
+      "passing": []
+    },
+    "status.service.I24": {
+      "title": "The page shows state, time, impact, limits and history",
+      "status": "active",
+      "tagged": [
+        "browser.py:28 registry",
+        "browser.py:34 state-per-card",
+        "browser.py:39 green",
+        "browser.py:40 red",
+        "browser.py:41 amber"
+      ],
+      "passing": []
+    },
+    "status.service.I25": {
+      "title": "Impact is scoped, never \"everything is down\"",
+      "status": "active",
+      "tagged": [
+        "browser.py:43 scoped-summary"
+      ],
+      "passing": []
+    },
+    "status.service.I26": {
+      "title": "Provider reachability is not business health",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I27": {
+      "title": "No promises of staff action or recovery time",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I28": {
+      "title": "Browser test interface",
+      "status": "active",
+      "tagged": [
+        "browser.py:34 state-per-card",
+        "browser.py:37 non-color-status",
+        "browser.py:39 green",
+        "browser.py:40 red",
+        "browser.py:41 amber"
+      ],
+      "passing": []
+    },
+    "status.service.I29": {
+      "title": "The browser re-assesses freshness itself",
+      "status": "active",
+      "tagged": [
+        "browser.py:34 state-per-card",
+        "browser.py:42 aged-banner",
+        "browser_live.py:55 live-aging-banner"
+      ],
+      "passing": []
+    },
+    "status.service.I30": {
+      "title": "Without JavaScript the page is a labelled snapshot",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I31": {
+      "title": "Readable, accessible, responsive, no horizontal overflow",
+      "status": "active",
+      "tagged": [
+        "browser.py:27 overflow",
+        "browser.py:36 readable-text",
+        "browser_live.py:53 live-overflow"
+      ],
+      "passing": []
+    },
+    "status.service.I32": {
+      "title": "Support is a real configured destination",
+      "status": "active",
+      "tagged": [
+        "browser.py:29 support-destination",
+        "browser_live.py:54 live-support"
+      ],
+      "passing": []
+    },
+    "status.service.I33": {
+      "title": "Support is prominent in the initial viewport",
+      "status": "active",
+      "tagged": [
+        "browser.py:30 support-initial-viewport"
+      ],
+      "passing": []
+    },
+    "status.service.I34": {
+      "title": "Synthetic Groundhog Day examples on loopback",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I35": {
+      "title": "Operations instructions",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I36": {
+      "title": "Readiness notes do not claim it is live",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I37": {
+      "title": "A loopback synthetic dependency and sink demo",
+      "status": "active",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I38": {
+      "title": "Pending notifications are posted after each collect and monitor cycle",
+      "status": "retired",
+      "tagged": [],
+      "passing": []
+    },
+    "status.service.I39": {
+      "title": "One durable outbox event per incident transition",
+      "status": "active",
+      "tagged": [
+        "alerts.py:41 Healthy initial observation sends no alert",
+        "alerts.py:43 Failure commits one pending opened event despite sink 503",
+        "alerts.py:47 Repeated impairment neither duplicates nor resends delivered event",
+        "alerts.py:49 Recovery sends one distinct resolved event",
+        "alerts.py:50 Repeated success sends no duplicate recovery",
+        "resilience.py:35 Queued openings and recoveries survive then deliver without loss"
+      ],
+      "passing": []
+    },
+    "status.service.I40": {
+      "title": "deliver is a separate, bounded, at-least-once worker",
+      "status": "active",
+      "tagged": [
+        "alerts.py:43 Failure commits one pending opened event despite sink 503",
+        "alerts.py:44 Pending event POST attempted with stable id",
+        "alerts.py:46 Restarted collection retries same event and marks delivered",
+        "alerts.py:47 Repeated impairment neither duplicates nor resends delivered event",
+        "alerts.py:49 Recovery sends one distinct resolved event",
+        "alerts.py:51 Alert payload contains safe event identity and no private probe URL",
+        "resilience.py:33 Delivery max-events bounds backlog drain",
+        "resilience.py:35 Queued openings and recoveries survive then deliver without loss"
+      ],
+      "passing": []
+    },
+    "status.service.I41": {
+      "title": "Collection and publication never wait on delivery",
+      "status": "active",
+      "tagged": [
+        "alerts.py:43 Failure commits one pending opened event despite sink 503",
+        "resilience.py:27 Collection never calls sink and publishes impairment independently",
+        "resilience.py:31 Recovery collection/export proceeds while delivery worker is stalled"
+      ],
+      "passing": []
+    },
+    "status.service.I42": {
+      "title": "Notification payloads are safe",
+      "status": "active",
+      "tagged": [
+        "alerts.py:51 Alert payload contains safe event identity and no private probe URL"
+      ],
+      "passing": []
+    },
+    "status.service.I43": {
+      "title": "An open page polls and recovers without reload",
+      "status": "active",
+      "tagged": [
+        "browser_live.py:52 live-state",
+        "browser_live.py:54 live-support",
+        "browser_live.py:57 poll-occurred"
+      ],
+      "passing": []
+    },
+    "status.service.I44": {
+      "title": "A failed refresh never renews evidence",
+      "status": "active",
+      "tagged": [
+        "browser_live.py:52 live-state",
+        "browser_live.py:55 live-aging-banner",
+        "browser_live.py:58 failed-refresh-exercised"
+      ],
+      "passing": []
+    },
+    "status.service.I45": {
+      "title": "Each poll has a finite, abortable deadline",
+      "status": "active",
+      "tagged": [
+        "browser_hung.py:29 hung-fetch-recovery"
+      ],
+      "passing": []
+    }
+  },
+  "units": [
+    {
+      "check": "evaluate.py:76 Registered services without observations are unknown",
+      "obligations": [
+        "status.service.I11",
+        "status.service.I10"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:78 All ten explicit checks healthy, including expected 401 provider reachability",
+      "obligations": [
+        "status.service.I2",
+        "status.service.I6",
+        "status.service.I8"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:82 Received 502 marks only affected component impaired",
+      "obligations": [
+        "status.service.I8"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:84 Failure has code, description and observation timestamp",
+      "obligations": [
+        "status.service.I8",
+        "status.service.I23"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:87 Repeated failure retains one open incident",
+      "obligations": [
+        "status.service.I18"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:91 Fresh success recovers core while minor dependency stays scoped",
+      "obligations": [
+        "status.service.I12"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:92 Incident resolves on recovery evidence",
+      "obligations": [
+        "status.service.I18"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:96 Full recovery restores healthy",
+      "obligations": [
+        "status.service.I12"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:97 History survives separate process restarts",
+      "obligations": [
+        "status.service.I19",
+        "status.service.I23"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:98 Resolved incidents retained",
+      "obligations": [
+        "status.service.I18",
+        "status.service.I19"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:101 Aged successful evidence is unknown, not current healthy",
+      "obligations": [
+        "status.service.I11",
+        "status.service.I10"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:105 Expected code with missing keyword is impaired",
+      "obligations": [
+        "status.service.I8"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:108 Probe timeout is impaired without crashing cycle",
+      "obligations": [
+        "status.service.I8",
+        "status.service.I7"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:109 Provider meaning and scope remain explicit",
+      "obligations": [
+        "status.service.I23"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:111 Public files omit private URL/body/traceback",
+      "obligations": [
+        "status.service.I4"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:115 Bounded monitor loop collects and persists two cycles",
+      "obligations": [
+        "status.service.I13"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:119 Duplicate registry rejected",
+      "obligations": [
+        "status.service.I16",
+        "status.service.I7"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:122 Removed service absent from public registry and incidents",
+      "obligations": [
+        "status.service.I20"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:125 Stopped dependencies cannot masquerade as healthy",
+      "obligations": [
+        "status.service.I8"
+      ],
+      "passed": false
+    },
+    {
+      "check": "evaluate.py:126 Published site still exists while all dependencies offline",
+      "obligations": [
+        "status.service.I3",
+        "status.service.I7"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:41 Healthy initial observation sends no alert",
+      "obligations": [
+        "status.service.I39"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:43 Failure commits one pending opened event despite sink 503",
+      "obligations": [
+        "status.service.I39",
+        "status.service.I40",
+        "status.service.I41"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:44 Pending event POST attempted with stable id",
+      "obligations": [
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:46 Restarted collection retries same event and marks delivered",
+      "obligations": [
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:47 Repeated impairment neither duplicates nor resends delivered event",
+      "obligations": [
+        "status.service.I39",
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:49 Recovery sends one distinct resolved event",
+      "obligations": [
+        "status.service.I39",
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:50 Repeated success sends no duplicate recovery",
+      "obligations": [
+        "status.service.I39"
+      ],
+      "passed": false
+    },
+    {
+      "check": "alerts.py:51 Alert payload contains safe event identity and no private probe URL",
+      "obligations": [
+        "status.service.I42",
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "resilience.py:27 Collection never calls sink and publishes impairment independently",
+      "obligations": [
+        "status.service.I41"
+      ],
+      "passed": false
+    },
+    {
+      "check": "resilience.py:31 Recovery collection/export proceeds while delivery worker is stalled",
+      "obligations": [
+        "status.service.I41"
+      ],
+      "passed": false
+    },
+    {
+      "check": "resilience.py:33 Delivery max-events bounds backlog drain",
+      "obligations": [
+        "status.service.I40"
+      ],
+      "passed": false
+    },
+    {
+      "check": "resilience.py:35 Queued openings and recoveries survive then deliver without loss",
+      "obligations": [
+        "status.service.I40",
+        "status.service.I39"
+      ],
+      "passed": false
+    },
+    {
+      "check": "operations.py:30 published_site_works_with_dependencies_and_monitor_stopped",
+      "obligations": [
+        "status.service.I3",
+        "status.service.I22"
+      ],
+      "passed": false
+    },
+    {
+      "check": "operations.py:39 backup_restore_preserves_observations_and_incidents",
+      "obligations": [
+        "status.service.I10",
+        "status.service.I19"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:27 overflow",
+      "obligations": [
+        "status.service.I31"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:28 registry",
+      "obligations": [
+        "status.service.I24"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:29 support-destination",
+      "obligations": [
+        "status.service.I32"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:30 support-initial-viewport",
+      "obligations": [
+        "status.service.I33"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:34 state-per-card",
+      "obligations": [
+        "status.service.I24",
+        "status.service.I28",
+        "status.service.I29"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:36 readable-text",
+      "obligations": [
+        "status.service.I31"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:37 non-color-status",
+      "obligations": [
+        "status.service.I28"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:39 green",
+      "obligations": [
+        "status.service.I24",
+        "status.service.I28"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:40 red",
+      "obligations": [
+        "status.service.I24",
+        "status.service.I28"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:41 amber",
+      "obligations": [
+        "status.service.I24",
+        "status.service.I28"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:42 aged-banner",
+      "obligations": [
+        "status.service.I29"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser.py:43 scoped-summary",
+      "obligations": [
+        "status.service.I25"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:52 live-state",
+      "obligations": [
+        "status.service.I43",
+        "status.service.I44"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:53 live-overflow",
+      "obligations": [
+        "status.service.I31"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:54 live-support",
+      "obligations": [
+        "status.service.I32",
+        "status.service.I43"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:55 live-aging-banner",
+      "obligations": [
+        "status.service.I29",
+        "status.service.I44"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:57 poll-occurred",
+      "obligations": [
+        "status.service.I43"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_live.py:58 failed-refresh-exercised",
+      "obligations": [
+        "status.service.I44"
+      ],
+      "passed": false
+    },
+    {
+      "check": "browser_hung.py:29 hung-fetch-recovery",
+      "obligations": [
+        "status.service.I45"
+      ],
+      "passed": false
+    }
+  ]
+}

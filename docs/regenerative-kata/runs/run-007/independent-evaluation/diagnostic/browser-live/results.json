@@ -1,0 +1,404 @@
+{
+  "results": [
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 390,
+      "documentWidth": 390,
+      "case": "recover-phone",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 720,
+      "documentWidth": 720,
+      "case": "recover-square",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "healthy",
+          "text": "Groundhog Day Application\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "healthy",
+          "text": "Groundhog Day Edge\nHealthy\n\nResponded with HTTP 200 and the expected content.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "healthy",
+          "text": "Groundhog Day Payments\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "healthy",
+          "text": "Groundhog Day Email\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "healthy",
+          "text": "Groundhog Day SMS\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "healthy",
+          "text": "Groundhog Day Authentication\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "healthy",
+          "text": "Groundhog Day Weather\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "healthy",
+          "text": "Groundhog Day Pollen\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "healthy",
+          "text": "Groundhog Day Hosting\nHealthy\n\nReachable: responded with HTTP 200 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "healthy",
+          "text": "Groundhog Day Secrets\nHealthy\n\nReachable: responded with HTTP 401 as expected for this reachability check.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:40 UTC (0 s ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "All 10 listed checks are healthy.",
+      "support": "https://support.example.invalid/help",
+      "aging": false,
+      "width": 820,
+      "documentWidth": 820,
+      "case": "recover-tablet",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 390,
+      "documentWidth": 390,
+      "case": "offline-phone",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 720,
+      "documentWidth": 720,
+      "case": "offline-square",
+      "outcome": "pass"
+    },
+    {
+      "states": [
+        {
+          "id": "gd-application",
+          "state": "unknown",
+          "text": "Groundhog Day Application\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-edge",
+          "state": "unknown",
+          "text": "Groundhog Day Edge\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: Core platform health endpoint\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown."
+        },
+        {
+          "id": "gd-payments",
+          "state": "unknown",
+          "text": "Groundhog Day Payments\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-email",
+          "state": "unknown",
+          "text": "Groundhog Day Email\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-sms",
+          "state": "unknown",
+          "text": "Groundhog Day SMS\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-authentication",
+          "state": "unknown",
+          "text": "Groundhog Day Authentication\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-weather",
+          "state": "unknown",
+          "text": "Groundhog Day Weather\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-pollen",
+          "state": "unknown",
+          "text": "Groundhog Day Pollen\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-hosting",
+          "state": "unknown",
+          "text": "Groundhog Day Hosting\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 200\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        },
+        {
+          "id": "gd-secrets",
+          "state": "unknown",
+          "text": "Groundhog Day Secrets\nUnknown\n\nNo fresh check result: the last check succeeded, but it is older than the 60 seconds freshness limit, so the current state is unknown.\n\nAffects: This dependency only; other wash operations may be unaffected\n\nLast checked 2026-11-20 16:58:00 UTC (2 min ago) \u00b7 HTTP 401\n\nEvidence older than 60 seconds is shown as Unknown.\n\nReachability check only: a Healthy result means the provider answered as expected. It does not prove account credentials or end-to-end business health."
+        }
+      ],
+      "summary": "Some listed checks are impaired or unknown: 10 unknown, 0 healthy, of 10 listed. Each check below says what it affects.",
+      "support": "https://support.example.invalid/help",
+      "aging": true,
+      "width": 820,
+      "documentWidth": 820,
+      "case": "offline-tablet",
+      "outcome": "pass"
+    }
+  ],
+  "requests": [
+    "/recover/index.html",
+    "/recover/status.json",
+    "/favicon.ico",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/recover/index.html",
+    "/recover/status.json",
+    "/favicon.ico",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/recover/index.html",
+    "/recover/status.json",
+    "/favicon.ico",
+    "/recover/status.json",
+    "/recover/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/favicon.ico",
+    "/offline/status.json",
+    "/offline/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/favicon.ico",
+    "/offline/status.json",
+    "/offline/status.json",
+    "/offline/index.html",
+    "/offline/status.json",
+    "/favicon.ico",
+    "/offline/status.json",
+    "/offline/status.json"
+  ],
+  "server": "Temporary loopback-only evaluator fixture; stopped",
+  "scope": "Open-page recovery without manual reload, failed refresh preserves evidence age"
+}

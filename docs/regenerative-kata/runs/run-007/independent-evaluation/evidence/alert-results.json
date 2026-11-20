@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "check": "Healthy initial observation sends no alert",
+      "outcome": "pass"
+    },
+    {
+      "check": "Failure commits one pending opened event despite sink 503",
+      "outcome": "pass"
+    },
+    {
+      "check": "Pending event POST attempted with stable id",
+      "outcome": "pass"
+    },
+    {
+      "check": "Restarted collection retries same event and marks delivered",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated impairment neither duplicates nor resends delivered event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Recovery sends one distinct resolved event",
+      "outcome": "pass"
+    },
+    {
+      "check": "Repeated success sends no duplicate recovery",
+      "outcome": "pass"
+    },
+    {
+      "check": "Alert payload contains safe event identity and no private probe URL",
+      "outcome": "pass"
+    }
+  ],
+  "received": [
+    {
+      "id": "evt-4e004120a07a4840bed8c12dd65b92d1",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-11-20T17:00:05.344Z",
+      "description": "Check impaired: Received HTTP 502; expected 200."
+    },
+    {
+      "id": "evt-4e004120a07a4840bed8c12dd65b92d1",
+      "service_id": "gd-app",
+      "type": "opened",
+      "observed_at": "2026-11-20T17:00:05.344Z",
+      "description": "Check impaired: Received HTTP 502; expected 200."
+    },
+    {
+      "id": "evt-0e617708609f458383c0c76f9bba32b6",
+      "service_id": "gd-app",
+      "type": "resolved",
+      "observed_at": "2026-11-20T17:00:08.344Z",
+      "description": "Check recovered: Responded with HTTP 200 and the expected content."
+    }
+  ],
+  "passed": 8
+}

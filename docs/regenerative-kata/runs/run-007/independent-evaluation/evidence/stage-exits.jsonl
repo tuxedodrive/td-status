@@ -1,0 +1,5 @@
+{"stage":"functional-first","exit":0}
+{"stage":"operations","exit":0}
+{"stage":"alerts","exit":0}
+{"stage":"resilience","exit":0}
+{"stage":"functional-repeat","exit":0}

@@ -1,0 +1,290 @@
+[
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:04.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:04.344Z collected 1 service(s): 1 succeeded, 0 failed; incidents opened 0, resolved 0; published 1 healthy, 0 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:04.344571+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:05.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:05.344Z collected 1 service(s): 0 succeeded, 1 failed; incidents opened 1, resolved 0; published 0 healthy, 1 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:05.344571+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:06.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:06.344Z collected 1 service(s): 0 succeeded, 1 failed; incidents opened 0, resolved 0; published 0 healthy, 1 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:06.344571+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:07.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:07.344Z collected 1 service(s): 0 succeeded, 1 failed; incidents opened 0, resolved 0; published 0 healthy, 1 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:07.344571+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:08.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:08.344Z collected 1 service(s): 1 succeeded, 0 failed; incidents opened 0, resolved 1; published 1 healthy, 0 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:08.344571+00:00"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "collect",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:09.344571+00:00"
+    ],
+    "exit": 0,
+    "stdout": "2026-11-20T17:00:09.344Z collected 1 service(s): 1 succeeded, 0 failed; incidents opened 0, resolved 0; published 1 healthy, 0 impaired, 0 unknown.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "deliver",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--max-events",
+      "10"
+    ],
+    "exit": 0
+  },
+  {
+    "command": [
+      "/usr/bin/python3",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/builder-output/status.py",
+      "export",
+      "--config",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/config.json",
+      "--db",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/state.sqlite",
+      "--output",
+      "/home/stig/experiments/td-meta-176/run-007/independent-eval-20261120T170011Z/evaluation/generated/alerts-qni1eu7_/public",
+      "--now",
+      "2026-11-20T17:00:09.344571+00:00"
+    ],
+    "exit": 0
+  }
+]

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-jpb-workspace-tuxedodrive--worktrees-distill-rules-2/18a0b564-5663-4239-8a32-29f79e133fd2/scratchpad/mini-eval/independent-eval-20261120T170011Z/evaluation/browser_hung.py", line 29, in <module>
+    (root/'evidence/browser-hung-result.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2));assert result['passed'],'Hung fetch prevented later recovery'  # proves[hung-fetch-recovery]: status.service.I45
+                                                                                                                                      ~~~~~~^^^^^^^^^^
+AssertionError: Hung fetch prevented later recovery
